@@ -1,0 +1,38 @@
+name: Daily AWS SDK Paginator Check
+
+on:
+  schedule:
+    # Runs at 7:00 AM UTC every day
+    - cron: '0 7 * * *'
+  workflow_dispatch: # Allows manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  check-aws-sdk:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Clone AWS SDK Java v2
+        run: |
+          git clone --depth 1 https://github.com/aws/aws-sdk-java-v2 aws-sdk-java-v2
+
+      - name: Run TypeScript script
+        run: bun run find-aws-sdk-paginators.ts
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Update AWS SDK paginator list"
+          git push
