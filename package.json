@@ -1,0 +1,26 @@
+{
+  "name": "aws-sdk-paginators",
+  "version": "1.0.0",
+  "description": "A catalogue of all paginators in the AWS SDKs",
+  "homepage": "https://github.com/KieranHunt/aws-sdk-paginators#readme",
+  "bugs": {
+    "url": "https://github.com/KieranHunt/aws-sdk-paginators/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KieranHunt/aws-sdk-paginators.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bun run find-aws-sdk-paginators.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  },
+  "dependencies": {
+    "@joggr/tempo": "^0.13.4",
+    "zod": "^3.24.0"
+  }
+}
