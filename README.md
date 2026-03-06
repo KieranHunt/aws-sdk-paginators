@@ -820,6 +820,8 @@ The following table contains all known paginators in the AWS SDKs. This README i
 | [connectcases](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connectcases/src/main/resources/codegen-resources/paginators-1.json) | SearchCases | nextToken | nextToken |
 | [connectcases](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connectcases/src/main/resources/codegen-resources/paginators-1.json) | SearchRelatedItems | nextToken | nextToken |
 | [connectcontactlens](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connectcontactlens/src/main/resources/codegen-resources/paginators-1.json) | ListRealtimeContactAnalysisSegments | NextToken | NextToken |
+| [connecthealth](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connecthealth/src/main/resources/codegen-resources/paginators-1.json) | ListDomains | nextToken | nextToken |
+| [connecthealth](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connecthealth/src/main/resources/codegen-resources/paginators-1.json) | ListSubscriptions | nextToken | nextToken |
 | [connectparticipant](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connectparticipant/src/main/resources/codegen-resources/paginators-1.json) | GetTranscript | NextToken | NextToken |
 | [controlcatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/controlcatalog/src/main/resources/codegen-resources/paginators-1.json) | ListCommonControls | NextToken | NextToken |
 | [controlcatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/controlcatalog/src/main/resources/codegen-resources/paginators-1.json) | ListControlMappings | NextToken | NextToken |
