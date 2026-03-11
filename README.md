@@ -1990,9 +1990,11 @@ The following table contains all known paginators in the AWS SDKs. This README i
 | [lexmodelbuilding](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelbuilding/src/main/resources/codegen-resources/paginators-1.json) | GetMigrations | nextToken | nextToken |
 | [lexmodelbuilding](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelbuilding/src/main/resources/codegen-resources/paginators-1.json) | GetSlotTypes | nextToken | nextToken |
 | [lexmodelbuilding](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelbuilding/src/main/resources/codegen-resources/paginators-1.json) | GetSlotTypeVersions | nextToken | nextToken |
+| [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | DescribeBotAnalyzerRecommendation | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListAggregatedUtterances | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotAliases | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotAliasReplicas | nextToken | nextToken |
+| [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotAnalyzerHistory | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotLocales | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotRecommendations | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotResourceGenerations | nextToken | nextToken |
