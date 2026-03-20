@@ -242,6 +242,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [batch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/batch/src/main/resources/codegen-resources/paginators-1.json) | ListConsumableResources | nextToken | nextToken |
 | [batch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/batch/src/main/resources/codegen-resources/paginators-1.json) | ListJobs | nextToken | nextToken |
 | [batch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/batch/src/main/resources/codegen-resources/paginators-1.json) | ListJobsByConsumableResource | nextToken | nextToken |
+| [batch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/batch/src/main/resources/codegen-resources/paginators-1.json) | ListQuotaShares | nextToken | nextToken |
 | [batch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/batch/src/main/resources/codegen-resources/paginators-1.json) | ListSchedulingPolicies | nextToken | nextToken |
 | [batch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/batch/src/main/resources/codegen-resources/paginators-1.json) | ListServiceJobs | nextToken | nextToken |
 | [bcmdashboards](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmdashboards/src/main/resources/codegen-resources/paginators-1.json) | ListDashboards | nextToken | nextToken |
@@ -820,6 +821,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connectcases](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connectcases/src/main/resources/codegen-resources/paginators-1.json) | SearchCases | nextToken | nextToken |
 | [connectcases](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connectcases/src/main/resources/codegen-resources/paginators-1.json) | SearchRelatedItems | nextToken | nextToken |
 | [connectcontactlens](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connectcontactlens/src/main/resources/codegen-resources/paginators-1.json) | ListRealtimeContactAnalysisSegments | NextToken | NextToken |
+| [connecthealth](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connecthealth/src/main/resources/codegen-resources/paginators-1.json) | ListDomains | nextToken | nextToken |
+| [connecthealth](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connecthealth/src/main/resources/codegen-resources/paginators-1.json) | ListSubscriptions | nextToken | nextToken |
 | [connectparticipant](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connectparticipant/src/main/resources/codegen-resources/paginators-1.json) | GetTranscript | NextToken | NextToken |
 | [controlcatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/controlcatalog/src/main/resources/codegen-resources/paginators-1.json) | ListCommonControls | NextToken | NextToken |
 | [controlcatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/controlcatalog/src/main/resources/codegen-resources/paginators-1.json) | ListControlMappings | NextToken | NextToken |
@@ -858,6 +861,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListEventStreams | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListEventTriggers | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListObjectTypeAttributes | NextToken | NextToken |
+| [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRecommenderFilters | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRecommenderRecipes | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRecommenders | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRuleBasedMatches | NextToken | NextToken |
@@ -1988,9 +1992,11 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [lexmodelbuilding](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelbuilding/src/main/resources/codegen-resources/paginators-1.json) | GetMigrations | nextToken | nextToken |
 | [lexmodelbuilding](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelbuilding/src/main/resources/codegen-resources/paginators-1.json) | GetSlotTypes | nextToken | nextToken |
 | [lexmodelbuilding](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelbuilding/src/main/resources/codegen-resources/paginators-1.json) | GetSlotTypeVersions | nextToken | nextToken |
+| [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | DescribeBotAnalyzerRecommendation | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListAggregatedUtterances | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotAliases | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotAliasReplicas | nextToken | nextToken |
+| [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotAnalyzerHistory | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotLocales | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotRecommendations | nextToken | nextToken |
 | [lexmodelsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lexmodelsv2/src/main/resources/codegen-resources/paginators-1.json) | ListBotResourceGenerations | nextToken | nextToken |
@@ -2194,8 +2200,21 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListExportErrors | nextToken | nextToken |
 | [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListExports | nextToken | nextToken |
 | [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListImportErrors | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListImportFileEnrichments | nextToken | nextToken |
 | [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListImports | nextToken | nextToken |
 | [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListManagedAccounts | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationAnalyses | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationAnalysisResults | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationCodeGenerations | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationCodeGenerationSegments | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationDefinitions | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationDeployedStacks | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationDeployments | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationExecutions | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationMapperSegmentConstructs | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationMapperSegments | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationMappings | nextToken | nextToken |
+| [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListNetworkMigrationMappingUpdates | nextToken | nextToken |
 | [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListSourceServerActions | nextToken | nextToken |
 | [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListTemplateActions | nextToken | nextToken |
 | [mgn](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mgn/src/main/resources/codegen-resources/paginators-1.json) | ListWaves | nextToken | nextToken |
@@ -2899,6 +2918,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [s3vectors](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3vectors/src/main/resources/codegen-resources/paginators-1.json) | ListVectorBuckets | nextToken | nextToken |
 | [s3vectors](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3vectors/src/main/resources/codegen-resources/paginators-1.json) | ListVectors | nextToken | nextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | CreateHubContentPresignedUrls | NextToken | NextToken |
+| [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | DescribeTrainingPlanExtensionHistory | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListActions | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListAlgorithms | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListAliases | NextToken | NextToken |
@@ -3102,6 +3122,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [signer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/signer/src/main/resources/codegen-resources/paginators-1.json) | ListSigningJobs | nextToken | nextToken |
 | [signer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/signer/src/main/resources/codegen-resources/paginators-1.json) | ListSigningPlatforms | nextToken | nextToken |
 | [signer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/signer/src/main/resources/codegen-resources/paginators-1.json) | ListSigningProfiles | nextToken | nextToken |
+| [simpledbv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/simpledbv2/src/main/resources/codegen-resources/paginators-1.json) | ListExports | nextToken | nextToken |
 | [simspaceweaver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/simspaceweaver/src/main/resources/codegen-resources/paginators-1.json) | ListApps | NextToken | NextToken |
 | [simspaceweaver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/simspaceweaver/src/main/resources/codegen-resources/paginators-1.json) | ListSimulations | NextToken | NextToken |
 | [snowball](https://github.com/aws/aws-sdk-java-v2/blob/master/services/snowball/src/main/resources/codegen-resources/paginators-1.json) | DescribeAddresses | NextToken | NextToken |
