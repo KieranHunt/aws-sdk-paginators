@@ -3348,6 +3348,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [trustedadvisor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/trustedadvisor/src/main/resources/codegen-resources/paginators-1.json) | ListRecommendations | nextToken | nextToken |
 | [verifiedpermissions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/verifiedpermissions/src/main/resources/codegen-resources/paginators-1.json) | ListIdentitySources | nextToken | nextToken |
 | [verifiedpermissions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/verifiedpermissions/src/main/resources/codegen-resources/paginators-1.json) | ListPolicies | nextToken | nextToken |
+| [verifiedpermissions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/verifiedpermissions/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyStoreAliases | nextToken | nextToken |
 | [verifiedpermissions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/verifiedpermissions/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyStores | nextToken | nextToken |
 | [verifiedpermissions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/verifiedpermissions/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyTemplates | nextToken | nextToken |
 | [voiceid](https://github.com/aws/aws-sdk-java-v2/blob/master/services/voiceid/src/main/resources/codegen-resources/paginators-1.json) | ListDomains | NextToken | NextToken |
