@@ -2371,6 +2371,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListAnnotationImportJobs | nextToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListAnnotationStores | nextToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListAnnotationStoreVersions | nextToken | nextToken |
+| [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListBatch | startingToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListMultipartReadSetUploads | nextToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListReadSetActivationJobs | nextToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListReadSetExportJobs | nextToken | nextToken |
@@ -2383,6 +2384,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListRunCaches | startingToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListRunGroups | startingToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListRuns | startingToken | nextToken |
+| [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListRunsInBatch | startingToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListRunTasks | startingToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListSequenceStores | nextToken | nextToken |
 | [omics](https://github.com/aws/aws-sdk-java-v2/blob/master/services/omics/src/main/resources/codegen-resources/paginators-1.json) | ListShares | nextToken | nextToken |
