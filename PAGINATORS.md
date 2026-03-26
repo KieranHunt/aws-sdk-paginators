@@ -2108,6 +2108,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [managedblockchainquery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/managedblockchainquery/src/main/resources/codegen-resources/paginators-1.json) | ListTransactionEvents | nextToken | nextToken |
 | [managedblockchainquery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/managedblockchainquery/src/main/resources/codegen-resources/paginators-1.json) | ListTransactions | nextToken | nextToken |
 | [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | GetAgreementTerms | nextToken | nextToken |
+| [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | ListAgreementPaymentRequests | nextToken | nextToken |
 | [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | SearchAgreements | nextToken | nextToken |
 | [marketplacecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListChangeSets | NextToken | NextToken |
 | [marketplacecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListEntities | NextToken | NextToken |
@@ -3348,6 +3349,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [trustedadvisor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/trustedadvisor/src/main/resources/codegen-resources/paginators-1.json) | ListOrganizationRecommendations | nextToken | nextToken |
 | [trustedadvisor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/trustedadvisor/src/main/resources/codegen-resources/paginators-1.json) | ListRecommendationResources | nextToken | nextToken |
 | [trustedadvisor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/trustedadvisor/src/main/resources/codegen-resources/paginators-1.json) | ListRecommendations | nextToken | nextToken |
+| [uxc](https://github.com/aws/aws-sdk-java-v2/blob/master/services/uxc/src/main/resources/codegen-resources/paginators-1.json) | ListServices | nextToken | nextToken |
 | [verifiedpermissions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/verifiedpermissions/src/main/resources/codegen-resources/paginators-1.json) | ListIdentitySources | nextToken | nextToken |
 | [verifiedpermissions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/verifiedpermissions/src/main/resources/codegen-resources/paginators-1.json) | ListPolicies | nextToken | nextToken |
 | [verifiedpermissions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/verifiedpermissions/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyStoreAliases | nextToken | nextToken |
