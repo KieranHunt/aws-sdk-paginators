@@ -326,6 +326,9 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [bedrockagentruntime](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentruntime/src/main/resources/codegen-resources/paginators-1.json) | Rerank | nextToken | nextToken |
 | [bedrockagentruntime](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentruntime/src/main/resources/codegen-resources/paginators-1.json) | Retrieve | nextToken | nextToken |
 | [bedrockdataautomation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockdataautomation/src/main/resources/codegen-resources/paginators-1.json) | ListBlueprints | nextToken | nextToken |
+| [bedrockdataautomation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockdataautomation/src/main/resources/codegen-resources/paginators-1.json) | ListDataAutomationLibraries | nextToken | nextToken |
+| [bedrockdataautomation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockdataautomation/src/main/resources/codegen-resources/paginators-1.json) | ListDataAutomationLibraryEntities | nextToken | nextToken |
+| [bedrockdataautomation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockdataautomation/src/main/resources/codegen-resources/paginators-1.json) | ListDataAutomationLibraryIngestionJobs | nextToken | nextToken |
 | [bedrockdataautomation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockdataautomation/src/main/resources/codegen-resources/paginators-1.json) | ListDataAutomationProjects | nextToken | nextToken |
 | [bedrockruntime](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockruntime/src/main/resources/codegen-resources/paginators-1.json) | ListAsyncInvokes | nextToken | nextToken |
 | [billing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billing/src/main/resources/codegen-resources/paginators-1.json) | ListBillingViews | nextToken | nextToken |
