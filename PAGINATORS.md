@@ -14,6 +14,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | ListFindings | nextToken | nextToken |
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | ListFindingsV2 | nextToken | nextToken |
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyGenerations | nextToken | nextToken |
+| [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyPreviewJobs | nextToken | nextToken |
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | ValidatePolicy | nextToken | nextToken |
 | [account](https://github.com/aws/aws-sdk-java-v2/blob/master/services/account/src/main/resources/codegen-resources/paginators-1.json) | ListRegions | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListCertificates | NextToken | NextToken |
