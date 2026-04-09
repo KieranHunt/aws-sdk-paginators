@@ -2127,6 +2127,11 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | SearchAgreements | nextToken | nextToken |
 | [marketplacecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListChangeSets | NextToken | NextToken |
 | [marketplacecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListEntities | NextToken | NextToken |
+| [marketplacediscovery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacediscovery/src/main/resources/codegen-resources/paginators-1.json) | GetOfferTerms | nextToken | nextToken |
+| [marketplacediscovery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacediscovery/src/main/resources/codegen-resources/paginators-1.json) | ListFulfillmentOptions | nextToken | nextToken |
+| [marketplacediscovery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacediscovery/src/main/resources/codegen-resources/paginators-1.json) | ListPurchaseOptions | nextToken | nextToken |
+| [marketplacediscovery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacediscovery/src/main/resources/codegen-resources/paginators-1.json) | SearchFacets | nextToken | nextToken |
+| [marketplacediscovery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplacediscovery/src/main/resources/codegen-resources/paginators-1.json) | SearchListings | nextToken | nextToken |
 | [marketplaceentitlement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceentitlement/src/main/resources/codegen-resources/paginators-1.json) | GetEntitlements | NextToken | NextToken |
 | [mediaconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediaconnect/src/main/resources/codegen-resources/paginators-1.json) | ListBridges | NextToken | NextToken |
 | [mediaconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediaconnect/src/main/resources/codegen-resources/paginators-1.json) | ListEntitlements | NextToken | NextToken |
