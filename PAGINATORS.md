@@ -247,6 +247,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [batch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/batch/src/main/resources/codegen-resources/paginators-1.json) | ListSchedulingPolicies | nextToken | nextToken |
 | [batch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/batch/src/main/resources/codegen-resources/paginators-1.json) | ListServiceJobs | nextToken | nextToken |
 | [bcmdashboards](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmdashboards/src/main/resources/codegen-resources/paginators-1.json) | ListDashboards | nextToken | nextToken |
+| [bcmdashboards](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmdashboards/src/main/resources/codegen-resources/paginators-1.json) | ListScheduledReports | nextToken | nextToken |
 | [bcmdataexports](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmdataexports/src/main/resources/codegen-resources/paginators-1.json) | ListExecutions | NextToken | NextToken |
 | [bcmdataexports](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmdataexports/src/main/resources/codegen-resources/paginators-1.json) | ListExports | NextToken | NextToken |
 | [bcmdataexports](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmdataexports/src/main/resources/codegen-resources/paginators-1.json) | ListTables | NextToken | NextToken |
@@ -316,6 +317,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [bedrockagentcorecontrol](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentcorecontrol/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyEngines | nextToken | nextToken |
 | [bedrockagentcorecontrol](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentcorecontrol/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyGenerationAssets | nextToken | nextToken |
 | [bedrockagentcorecontrol](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentcorecontrol/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyGenerations | nextToken | nextToken |
+| [bedrockagentcorecontrol](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentcorecontrol/src/main/resources/codegen-resources/paginators-1.json) | ListRegistries | nextToken | nextToken |
+| [bedrockagentcorecontrol](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentcorecontrol/src/main/resources/codegen-resources/paginators-1.json) | ListRegistryRecords | nextToken | nextToken |
 | [bedrockagentcorecontrol](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentcorecontrol/src/main/resources/codegen-resources/paginators-1.json) | ListWorkloadIdentities | nextToken | nextToken |
 | [bedrockagentruntime](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentruntime/src/main/resources/codegen-resources/paginators-1.json) | GetAgentMemory | nextToken | nextToken |
 | [bedrockagentruntime](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentruntime/src/main/resources/codegen-resources/paginators-1.json) | ListFlowExecutionEvents | nextToken | nextToken |
