@@ -871,6 +871,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRecommenderFilters | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRecommenderRecipes | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRecommenders | NextToken | NextToken |
+| [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRecommenderSchemas | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListRuleBasedMatches | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListSegmentDefinitions | NextToken | NextToken |
 | [customerprofiles](https://github.com/aws/aws-sdk-java-v2/blob/master/services/customerprofiles/src/main/resources/codegen-resources/paginators-1.json) | ListUploadJobs | NextToken | NextToken |
@@ -2735,6 +2736,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribePendingMaintenanceActions | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeReservedDBInstances | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeReservedDBInstancesOfferings | Marker | Marker |
+| [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeServerlessV2PlatformVersions | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeSourceRegions | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeTenantDatabases | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DownloadDBLogFilePortion | Marker | Marker |
