@@ -1597,10 +1597,13 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [greengrassv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/greengrassv2/src/main/resources/codegen-resources/paginators-1.json) | ListDeployments | nextToken | nextToken |
 | [greengrassv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/greengrassv2/src/main/resources/codegen-resources/paginators-1.json) | ListEffectiveDeployments | nextToken | nextToken |
 | [greengrassv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/greengrassv2/src/main/resources/codegen-resources/paginators-1.json) | ListInstalledComponents | nextToken | nextToken |
+| [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListAntennas | nextToken | nextToken |
 | [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListConfigs | nextToken | nextToken |
 | [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListContacts | nextToken | nextToken |
+| [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListContactVersions | nextToken | nextToken |
 | [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListDataflowEndpointGroups | nextToken | nextToken |
 | [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListEphemerides | nextToken | nextToken |
+| [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListGroundStationReservations | nextToken | nextToken |
 | [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListGroundStations | nextToken | nextToken |
 | [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListMissionProfiles | nextToken | nextToken |
 | [groundstation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/groundstation/src/main/resources/codegen-resources/paginators-1.json) | ListSatellites | nextToken | nextToken |
