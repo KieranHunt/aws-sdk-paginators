@@ -1422,9 +1422,11 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [entityresolution](https://github.com/aws/aws-sdk-java-v2/blob/master/services/entityresolution/src/main/resources/codegen-resources/paginators-1.json) | ListMatchingWorkflows | nextToken | nextToken |
 | [entityresolution](https://github.com/aws/aws-sdk-java-v2/blob/master/services/entityresolution/src/main/resources/codegen-resources/paginators-1.json) | ListProviderServices | nextToken | nextToken |
 | [entityresolution](https://github.com/aws/aws-sdk-java-v2/blob/master/services/entityresolution/src/main/resources/codegen-resources/paginators-1.json) | ListSchemaMappings | nextToken | nextToken |
+| [evs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/evs/src/main/resources/codegen-resources/paginators-1.json) | ListEnvironmentConnectors | nextToken | nextToken |
 | [evs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/evs/src/main/resources/codegen-resources/paginators-1.json) | ListEnvironmentHosts | nextToken | nextToken |
 | [evs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/evs/src/main/resources/codegen-resources/paginators-1.json) | ListEnvironments | nextToken | nextToken |
 | [evs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/evs/src/main/resources/codegen-resources/paginators-1.json) | ListEnvironmentVlans | nextToken | nextToken |
+| [evs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/evs/src/main/resources/codegen-resources/paginators-1.json) | ListVmEntitlements | nextToken | nextToken |
 | [finspace](https://github.com/aws/aws-sdk-java-v2/blob/master/services/finspace/src/main/resources/codegen-resources/paginators-1.json) | ListKxChangesets | nextToken | nextToken |
 | [finspace](https://github.com/aws/aws-sdk-java-v2/blob/master/services/finspace/src/main/resources/codegen-resources/paginators-1.json) | ListKxClusterNodes | nextToken | nextToken |
 | [finspace](https://github.com/aws/aws-sdk-java-v2/blob/master/services/finspace/src/main/resources/codegen-resources/paginators-1.json) | ListKxDatabases | nextToken | nextToken |
@@ -2057,6 +2059,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [location](https://github.com/aws/aws-sdk-java-v2/blob/master/services/location/src/main/resources/codegen-resources/paginators-1.json) | ListDevicePositions | NextToken | NextToken |
 | [location](https://github.com/aws/aws-sdk-java-v2/blob/master/services/location/src/main/resources/codegen-resources/paginators-1.json) | ListGeofenceCollections | NextToken | NextToken |
 | [location](https://github.com/aws/aws-sdk-java-v2/blob/master/services/location/src/main/resources/codegen-resources/paginators-1.json) | ListGeofences | NextToken | NextToken |
+| [location](https://github.com/aws/aws-sdk-java-v2/blob/master/services/location/src/main/resources/codegen-resources/paginators-1.json) | ListJobs | NextToken | NextToken |
 | [location](https://github.com/aws/aws-sdk-java-v2/blob/master/services/location/src/main/resources/codegen-resources/paginators-1.json) | ListKeys | NextToken | NextToken |
 | [location](https://github.com/aws/aws-sdk-java-v2/blob/master/services/location/src/main/resources/codegen-resources/paginators-1.json) | ListMaps | NextToken | NextToken |
 | [location](https://github.com/aws/aws-sdk-java-v2/blob/master/services/location/src/main/resources/codegen-resources/paginators-1.json) | ListPlaceIndexes | NextToken | NextToken |
