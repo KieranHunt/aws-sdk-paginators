@@ -734,6 +734,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | GetMetricDataV2 | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListAgentStatuses | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListApprovedOrigins | NextToken | NextToken |
+| [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListAttachedFilesConfigurations | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListAuthenticationProfiles | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListBots | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListChildHoursOfOperations | NextToken | NextToken |
