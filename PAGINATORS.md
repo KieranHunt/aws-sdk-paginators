@@ -970,6 +970,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListLineageEvents | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListLineageNodeHistory | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListMetadataGenerationRuns | nextToken | nextToken |
+| [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListNotebookRuns | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListNotifications | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyGrants | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListProjectMemberships | nextToken | nextToken |
