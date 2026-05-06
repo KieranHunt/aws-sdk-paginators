@@ -2143,8 +2143,10 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [managedblockchainquery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/managedblockchainquery/src/main/resources/codegen-resources/paginators-1.json) | ListTokenBalances | nextToken | nextToken |
 | [managedblockchainquery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/managedblockchainquery/src/main/resources/codegen-resources/paginators-1.json) | ListTransactionEvents | nextToken | nextToken |
 | [managedblockchainquery](https://github.com/aws/aws-sdk-java-v2/blob/master/services/managedblockchainquery/src/main/resources/codegen-resources/paginators-1.json) | ListTransactions | nextToken | nextToken |
+| [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | GetAgreementEntitlements | nextToken | nextToken |
 | [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | GetAgreementTerms | nextToken | nextToken |
 | [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | ListAgreementCancellationRequests | nextToken | nextToken |
+| [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | ListAgreementCharges | nextToken | nextToken |
 | [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | ListAgreementInvoiceLineItems | nextToken | nextToken |
 | [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | ListAgreementPaymentRequests | nextToken | nextToken |
 | [marketplaceagreement](https://github.com/aws/aws-sdk-java-v2/blob/master/services/marketplaceagreement/src/main/resources/codegen-resources/paginators-1.json) | ListBillingAdjustmentRequests | nextToken | nextToken |
@@ -2212,6 +2214,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [mediatailor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediatailor/src/main/resources/codegen-resources/paginators-1.json) | GetChannelSchedule | NextToken | NextToken |
 | [mediatailor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediatailor/src/main/resources/codegen-resources/paginators-1.json) | ListAlerts | NextToken | NextToken |
 | [mediatailor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediatailor/src/main/resources/codegen-resources/paginators-1.json) | ListChannels | NextToken | NextToken |
+| [mediatailor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediatailor/src/main/resources/codegen-resources/paginators-1.json) | ListFunctions | NextToken | NextToken |
 | [mediatailor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediatailor/src/main/resources/codegen-resources/paginators-1.json) | ListLiveSources | NextToken | NextToken |
 | [mediatailor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediatailor/src/main/resources/codegen-resources/paginators-1.json) | ListPlaybackConfigurations | NextToken | NextToken |
 | [mediatailor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/mediatailor/src/main/resources/codegen-resources/paginators-1.json) | ListPrefetchSchedules | NextToken | NextToken |
