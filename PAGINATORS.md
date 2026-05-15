@@ -262,6 +262,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [bcmpricingcalculator](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmpricingcalculator/src/main/resources/codegen-resources/paginators-1.json) | ListWorkloadEstimates | nextToken | nextToken |
 | [bcmpricingcalculator](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmpricingcalculator/src/main/resources/codegen-resources/paginators-1.json) | ListWorkloadEstimateUsage | nextToken | nextToken |
 | [bcmrecommendedactions](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bcmrecommendedactions/src/main/resources/codegen-resources/paginators-1.json) | ListRecommendedActions | nextToken | nextToken |
+| [bedrock](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrock/src/main/resources/codegen-resources/paginators-1.json) | ListAdvancedPromptOptimizationJobs | nextToken | nextToken |
 | [bedrock](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrock/src/main/resources/codegen-resources/paginators-1.json) | ListAutomatedReasoningPolicies | nextToken | nextToken |
 | [bedrock](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrock/src/main/resources/codegen-resources/paginators-1.json) | ListAutomatedReasoningPolicyBuildWorkflows | nextToken | nextToken |
 | [bedrock](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrock/src/main/resources/codegen-resources/paginators-1.json) | ListAutomatedReasoningPolicyTestCases | nextToken | nextToken |
@@ -979,6 +980,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListLineageNodeHistory | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListMetadataGenerationRuns | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListNotebookRuns | nextToken | nextToken |
+| [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListNotebooks | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListNotifications | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyGrants | nextToken | nextToken |
 | [datazone](https://github.com/aws/aws-sdk-java-v2/blob/master/services/datazone/src/main/resources/codegen-resources/paginators-1.json) | ListProjectMemberships | nextToken | nextToken |
@@ -2664,6 +2666,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [qconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/qconnect/src/main/resources/codegen-resources/paginators-1.json) | ListMessages | nextToken | nextToken |
 | [qconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/qconnect/src/main/resources/codegen-resources/paginators-1.json) | ListMessageTemplates | nextToken | nextToken |
 | [qconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/qconnect/src/main/resources/codegen-resources/paginators-1.json) | ListMessageTemplateVersions | nextToken | nextToken |
+| [qconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/qconnect/src/main/resources/codegen-resources/paginators-1.json) | ListModels | nextToken | nextToken |
 | [qconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/qconnect/src/main/resources/codegen-resources/paginators-1.json) | ListQuickResponses | nextToken | nextToken |
 | [qconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/qconnect/src/main/resources/codegen-resources/paginators-1.json) | ListSpans | nextToken | nextToken |
 | [qconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/qconnect/src/main/resources/codegen-resources/paginators-1.json) | QueryAssistant | nextToken | nextToken |
