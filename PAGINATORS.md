@@ -1193,6 +1193,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeInstanceTypeOfferings | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeInstanceTypes | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeInternetGateways | NextToken | NextToken |
+| [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeIpamPoolAllocations | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeIpamPools | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeIpamPrefixListResolvers | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeIpamPrefixListResolverTargets | NextToken | NextToken |
