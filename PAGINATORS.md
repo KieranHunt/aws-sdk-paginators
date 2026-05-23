@@ -2572,6 +2572,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [pi](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pi/src/main/resources/codegen-resources/paginators-1.json) | GetResourceMetrics | NextToken | NextToken |
 | [pi](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pi/src/main/resources/codegen-resources/paginators-1.json) | ListAvailableResourceDimensions | NextToken | NextToken |
 | [pi](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pi/src/main/resources/codegen-resources/paginators-1.json) | ListAvailableResourceMetrics | NextToken | NextToken |
+| [pi](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pi/src/main/resources/codegen-resources/paginators-1.json) | ListPerformanceAnalysisReportRecommendations | NextToken | NextToken |
 | [pi](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pi/src/main/resources/codegen-resources/paginators-1.json) | ListPerformanceAnalysisReports | NextToken | NextToken |
 | [pinpointemail](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pinpointemail/src/main/resources/codegen-resources/paginators-1.json) | GetDedicatedIps | NextToken | NextToken |
 | [pinpointemail](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pinpointemail/src/main/resources/codegen-resources/paginators-1.json) | ListConfigurationSets | NextToken | NextToken |
