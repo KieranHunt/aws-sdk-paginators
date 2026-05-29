@@ -1029,6 +1029,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListStorageProfiles | nextToken | nextToken |
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListStorageProfilesForQueue | nextToken | nextToken |
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListTasks | nextToken | nextToken |
+| [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListVolumes | nextToken | nextToken |
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListWorkers | nextToken | nextToken |
 | [detective](https://github.com/aws/aws-sdk-java-v2/blob/master/services/detective/src/main/resources/codegen-resources/paginators-1.json) | ListDatasourcePackages | NextToken | NextToken |
 | [detective](https://github.com/aws/aws-sdk-java-v2/blob/master/services/detective/src/main/resources/codegen-resources/paginators-1.json) | ListGraphs | NextToken | NextToken |
@@ -1823,6 +1824,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [iot](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iot/src/main/resources/codegen-resources/paginators-1.json) | ListV2LoggingLevels | nextToken | nextToken |
 | [iot](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iot/src/main/resources/codegen-resources/paginators-1.json) | ListViolationEvents | nextToken | nextToken |
 | [iotdataplane](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iotdataplane/src/main/resources/codegen-resources/paginators-1.json) | ListRetainedMessages | nextToken | nextToken |
+| [iotdataplane](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iotdataplane/src/main/resources/codegen-resources/paginators-1.json) | ListSubscriptions | nextToken | nextToken |
 | [iotdeviceadvisor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iotdeviceadvisor/src/main/resources/codegen-resources/paginators-1.json) | ListSuiteDefinitions | nextToken | nextToken |
 | [iotdeviceadvisor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iotdeviceadvisor/src/main/resources/codegen-resources/paginators-1.json) | ListSuiteRuns | nextToken | nextToken |
 | [iotfleetwise](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iotfleetwise/src/main/resources/codegen-resources/paginators-1.json) | GetVehicleStatus | nextToken | nextToken |
@@ -2877,6 +2879,21 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [resiliencehub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehub/src/main/resources/codegen-resources/paginators-1.json) | ListSuggestedResiliencyPolicies | nextToken | nextToken |
 | [resiliencehub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehub/src/main/resources/codegen-resources/paginators-1.json) | ListTestRecommendations | nextToken | nextToken |
 | [resiliencehub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehub/src/main/resources/codegen-resources/paginators-1.json) | ListUnsupportedAppVersionResources | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListAssertions | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListDependencies | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListFailureModeAssessments | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListFailureModeFindings | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListInputSources | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListPolicies | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListReports | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListResources | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListServiceEvents | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListServiceFunctions | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListServices | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListServiceTopologyEdges | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListSystemEvents | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListSystems | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListUserJourneys | nextToken | nextToken |
 | [resourceexplorer2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resourceexplorer2/src/main/resources/codegen-resources/paginators-1.json) | GetResourceExplorerSetup | NextToken | NextToken |
 | [resourceexplorer2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resourceexplorer2/src/main/resources/codegen-resources/paginators-1.json) | ListIndexes | NextToken | NextToken |
 | [resourceexplorer2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resourceexplorer2/src/main/resources/codegen-resources/paginators-1.json) | ListIndexesForMembers | NextToken | NextToken |
