@@ -2704,6 +2704,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListIAMPolicyAssignmentsForUser | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListIngestions | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListNamespaces | NextToken | NextToken |
+| [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListOAuthClientApplications | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListRoleMemberships | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListTemplateAliases | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListTemplates | NextToken | NextToken |
@@ -2964,6 +2965,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [route53resolver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/route53resolver/src/main/resources/codegen-resources/paginators-1.json) | ListFirewallRuleGroupAssociations | NextToken | NextToken |
 | [route53resolver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/route53resolver/src/main/resources/codegen-resources/paginators-1.json) | ListFirewallRuleGroups | NextToken | NextToken |
 | [route53resolver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/route53resolver/src/main/resources/codegen-resources/paginators-1.json) | ListFirewallRules | NextToken | NextToken |
+| [route53resolver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/route53resolver/src/main/resources/codegen-resources/paginators-1.json) | ListFirewallRuleTypes | NextToken | NextToken |
 | [route53resolver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/route53resolver/src/main/resources/codegen-resources/paginators-1.json) | ListOutpostResolvers | NextToken | NextToken |
 | [route53resolver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/route53resolver/src/main/resources/codegen-resources/paginators-1.json) | ListResolverConfigs | NextToken | NextToken |
 | [route53resolver](https://github.com/aws/aws-sdk-java-v2/blob/master/services/route53resolver/src/main/resources/codegen-resources/paginators-1.json) | ListResolverDnssecConfigs | NextToken | NextToken |
