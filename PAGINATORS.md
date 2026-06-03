@@ -3058,6 +3058,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListInferenceExperiments | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListInferenceRecommendationsJobs | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListInferenceRecommendationsJobSteps | NextToken | NextToken |
+| [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListJobs | NextToken | NextToken |
+| [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListJobSchemaVersions | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListLabelingJobs | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListLabelingJobsForWorkteam | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListLineageGroups | NextToken | NextToken |
