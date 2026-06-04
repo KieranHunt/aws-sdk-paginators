@@ -3266,6 +3266,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [sns](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sns/src/main/resources/codegen-resources/paginators-1.json) | ListSubscriptionsByTopic | NextToken | NextToken |
 | [sns](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sns/src/main/resources/codegen-resources/paginators-1.json) | ListTopics | NextToken | NextToken |
 | [socialmessaging](https://github.com/aws/aws-sdk-java-v2/blob/master/services/socialmessaging/src/main/resources/codegen-resources/paginators-1.json) | ListLinkedWhatsAppBusinessAccounts | nextToken | nextToken |
+| [socialmessaging](https://github.com/aws/aws-sdk-java-v2/blob/master/services/socialmessaging/src/main/resources/codegen-resources/paginators-1.json) | ListWhatsAppFlowAssets | nextToken | nextToken |
+| [socialmessaging](https://github.com/aws/aws-sdk-java-v2/blob/master/services/socialmessaging/src/main/resources/codegen-resources/paginators-1.json) | ListWhatsAppFlows | nextToken | nextToken |
 | [socialmessaging](https://github.com/aws/aws-sdk-java-v2/blob/master/services/socialmessaging/src/main/resources/codegen-resources/paginators-1.json) | ListWhatsAppMessageTemplates | nextToken | nextToken |
 | [socialmessaging](https://github.com/aws/aws-sdk-java-v2/blob/master/services/socialmessaging/src/main/resources/codegen-resources/paginators-1.json) | ListWhatsAppTemplateLibrary | nextToken | nextToken |
 | [sqs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sqs/src/main/resources/codegen-resources/paginators-1.json) | ListDeadLetterSourceQueues | NextToken | NextToken |
