@@ -1429,6 +1429,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListNotebookExecutions | Marker | Marker |
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListReleaseLabels | NextToken | NextToken |
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListSecurityConfigurations | Marker | Marker |
+| [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListSessions | NextToken | NextToken |
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListSteps | Marker | Marker |
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListStudios | Marker | Marker |
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListStudioSessionMappings | Marker | Marker |
