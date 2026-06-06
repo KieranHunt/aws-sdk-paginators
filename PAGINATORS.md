@@ -2704,6 +2704,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListIAMPolicyAssignments | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListIAMPolicyAssignmentsForUser | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListIngestions | NextToken | NextToken |
+| [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListKnowledgeBases | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListNamespaces | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListOAuthClientApplications | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | ListRoleMemberships | NextToken | NextToken |
@@ -2724,6 +2725,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | SearchFlows | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | SearchFolders | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | SearchGroups | NextToken | NextToken |
+| [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | SearchKnowledgeBases | NextToken | NextToken |
 | [quicksight](https://github.com/aws/aws-sdk-java-v2/blob/master/services/quicksight/src/main/resources/codegen-resources/paginators-1.json) | SearchTopics | NextToken | NextToken |
 | [ram](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ram/src/main/resources/codegen-resources/paginators-1.json) | GetResourcePolicies | nextToken | nextToken |
 | [ram](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ram/src/main/resources/codegen-resources/paginators-1.json) | GetResourceShareAssociations | nextToken | nextToken |
