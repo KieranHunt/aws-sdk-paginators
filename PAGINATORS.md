@@ -1055,6 +1055,10 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [devicefarm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devicefarm/src/main/resources/codegen-resources/paginators-1.json) | ListUniqueProblems | nextToken | nextToken |
 | [devicefarm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devicefarm/src/main/resources/codegen-resources/paginators-1.json) | ListUploads | nextToken | nextToken |
 | [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListAgentSpaces | nextToken | nextToken |
+| [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListAssetFiles | nextToken | nextToken |
+| [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListAssets | nextToken | nextToken |
+| [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListAssetTypes | nextToken | nextToken |
+| [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListAssetVersions | nextToken | nextToken |
 | [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListAssociations | nextToken | nextToken |
 | [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListBacklogTasks | nextToken | nextToken |
 | [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListExecutions | nextToken | nextToken |
