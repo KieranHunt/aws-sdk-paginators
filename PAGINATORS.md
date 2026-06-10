@@ -2428,6 +2428,12 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [observabilityadmin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/observabilityadmin/src/main/resources/codegen-resources/paginators-1.json) | ListTelemetryPipelines | NextToken | NextToken |
 | [observabilityadmin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/observabilityadmin/src/main/resources/codegen-resources/paginators-1.json) | ListTelemetryRules | NextToken | NextToken |
 | [observabilityadmin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/observabilityadmin/src/main/resources/codegen-resources/paginators-1.json) | ListTelemetryRulesForOrganization | NextToken | NextToken |
+| [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListAutonomousDatabaseBackups | nextToken | nextToken |
+| [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListAutonomousDatabaseCharacterSets | nextToken | nextToken |
+| [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListAutonomousDatabaseClones | nextToken | nextToken |
+| [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListAutonomousDatabasePeers | nextToken | nextToken |
+| [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListAutonomousDatabases | nextToken | nextToken |
+| [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListAutonomousDatabaseVersions | nextToken | nextToken |
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListAutonomousVirtualMachines | nextToken | nextToken |
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListCloudAutonomousVmClusters | nextToken | nextToken |
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListCloudExadataInfrastructures | nextToken | nextToken |
@@ -2515,8 +2521,10 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/outposts/src/main/resources/codegen-resources/paginators-1.json) | ListBlockingInstancesForCapacityTask | NextToken | NextToken |
 | [outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/outposts/src/main/resources/codegen-resources/paginators-1.json) | ListCapacityTasks | NextToken | NextToken |
 | [outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/outposts/src/main/resources/codegen-resources/paginators-1.json) | ListCatalogItems | NextToken | NextToken |
+| [outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/outposts/src/main/resources/codegen-resources/paginators-1.json) | ListOrderableInstanceTypes | NextToken | NextToken |
 | [outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/outposts/src/main/resources/codegen-resources/paginators-1.json) | ListOrders | NextToken | NextToken |
 | [outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/outposts/src/main/resources/codegen-resources/paginators-1.json) | ListOutposts | NextToken | NextToken |
+| [outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/outposts/src/main/resources/codegen-resources/paginators-1.json) | ListQuotes | NextToken | NextToken |
 | [outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/outposts/src/main/resources/codegen-resources/paginators-1.json) | ListSites | NextToken | NextToken |
 | [panorama](https://github.com/aws/aws-sdk-java-v2/blob/master/services/panorama/src/main/resources/codegen-resources/paginators-1.json) | ListApplicationInstanceDependencies | NextToken | NextToken |
 | [panorama](https://github.com/aws/aws-sdk-java-v2/blob/master/services/panorama/src/main/resources/codegen-resources/paginators-1.json) | ListApplicationInstanceNodeInstances | NextToken | NextToken |
