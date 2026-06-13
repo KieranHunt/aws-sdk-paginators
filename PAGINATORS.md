@@ -1065,6 +1065,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListGoals | nextToken | nextToken |
 | [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListJournalRecords | nextToken | nextToken |
 | [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListServices | nextToken | nextToken |
+| [devopsagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsagent/src/main/resources/codegen-resources/paginators-1.json) | ListTriggers | nextToken | nextToken |
 | [devopsguru](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsguru/src/main/resources/codegen-resources/paginators-1.json) | DescribeOrganizationResourceCollectionHealth | NextToken | NextToken |
 | [devopsguru](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsguru/src/main/resources/codegen-resources/paginators-1.json) | DescribeResourceCollectionHealth | NextToken | NextToken |
 | [devopsguru](https://github.com/aws/aws-sdk-java-v2/blob/master/services/devopsguru/src/main/resources/codegen-resources/paginators-1.json) | GetCostEstimation | NextToken | NextToken |
