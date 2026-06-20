@@ -1626,7 +1626,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListTriggers | NextToken | NextToken |
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListUsageProfiles | NextToken | NextToken |
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListWorkflows | NextToken | NextToken |
-| [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | Search | NextToken | NextToken |
+| [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | SearchAssets | NextToken | NextToken |
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | SearchTables | NextToken | NextToken |
 | [grafana](https://github.com/aws/aws-sdk-java-v2/blob/master/services/grafana/src/main/resources/codegen-resources/paginators-1.json) | ListPermissions | nextToken | nextToken |
 | [grafana](https://github.com/aws/aws-sdk-java-v2/blob/master/services/grafana/src/main/resources/codegen-resources/paginators-1.json) | ListVersions | nextToken | nextToken |
