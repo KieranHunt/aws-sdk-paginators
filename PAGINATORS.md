@@ -158,6 +158,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [arczonalshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/arczonalshift/src/main/resources/codegen-resources/paginators-1.json) | ListAutoshifts | nextToken | nextToken |
 | [arczonalshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/arczonalshift/src/main/resources/codegen-resources/paginators-1.json) | ListManagedResources | nextToken | nextToken |
 | [arczonalshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/arczonalshift/src/main/resources/codegen-resources/paginators-1.json) | ListZonalShifts | nextToken | nextToken |
+| [artifact](https://github.com/aws/aws-sdk-java-v2/blob/master/services/artifact/src/main/resources/codegen-resources/paginators-1.json) | ListComplianceInquiries | nextToken | nextToken |
+| [artifact](https://github.com/aws/aws-sdk-java-v2/blob/master/services/artifact/src/main/resources/codegen-resources/paginators-1.json) | ListComplianceInquiryQueries | nextToken | nextToken |
 | [artifact](https://github.com/aws/aws-sdk-java-v2/blob/master/services/artifact/src/main/resources/codegen-resources/paginators-1.json) | ListCustomerAgreements | nextToken | nextToken |
 | [artifact](https://github.com/aws/aws-sdk-java-v2/blob/master/services/artifact/src/main/resources/codegen-resources/paginators-1.json) | ListReports | nextToken | nextToken |
 | [artifact](https://github.com/aws/aws-sdk-java-v2/blob/master/services/artifact/src/main/resources/codegen-resources/paginators-1.json) | ListReportVersions | nextToken | nextToken |
