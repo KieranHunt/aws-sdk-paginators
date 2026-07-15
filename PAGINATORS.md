@@ -841,6 +841,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchQuickConnects | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchResourceTags | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchRoutingProfiles | NextToken | NextToken |
+| [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchRules | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchSecurityProfiles | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchTestCases | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchUserHierarchyGroups | NextToken | NextToken |
