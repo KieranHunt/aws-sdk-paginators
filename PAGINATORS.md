@@ -1691,6 +1691,9 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [health](https://github.com/aws/aws-sdk-java-v2/blob/master/services/health/src/main/resources/codegen-resources/paginators-1.json) | DescribeEvents | nextToken | nextToken |
 | [health](https://github.com/aws/aws-sdk-java-v2/blob/master/services/health/src/main/resources/codegen-resources/paginators-1.json) | DescribeEventsForOrganization | nextToken | nextToken |
 | [health](https://github.com/aws/aws-sdk-java-v2/blob/master/services/health/src/main/resources/codegen-resources/paginators-1.json) | DescribeEventTypes | nextToken | nextToken |
+| [healthlake](https://github.com/aws/aws-sdk-java-v2/blob/master/services/healthlake/src/main/resources/codegen-resources/paginators-1.json) | ListDataTransformationJobs | NextToken | NextToken |
+| [healthlake](https://github.com/aws/aws-sdk-java-v2/blob/master/services/healthlake/src/main/resources/codegen-resources/paginators-1.json) | ListDataTransformationProfiles | NextToken | NextToken |
+| [healthlake](https://github.com/aws/aws-sdk-java-v2/blob/master/services/healthlake/src/main/resources/codegen-resources/paginators-1.json) | ListDataTransformationProfileVersions | NextToken | NextToken |
 | [healthlake](https://github.com/aws/aws-sdk-java-v2/blob/master/services/healthlake/src/main/resources/codegen-resources/paginators-1.json) | ListFHIRDatastores | NextToken | NextToken |
 | [healthlake](https://github.com/aws/aws-sdk-java-v2/blob/master/services/healthlake/src/main/resources/codegen-resources/paginators-1.json) | ListFHIRExportJobs | NextToken | NextToken |
 | [healthlake](https://github.com/aws/aws-sdk-java-v2/blob/master/services/healthlake/src/main/resources/codegen-resources/paginators-1.json) | ListFHIRImportJobs | NextToken | NextToken |
