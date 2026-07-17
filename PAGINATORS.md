@@ -3471,6 +3471,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [supportauthz](https://github.com/aws/aws-sdk-java-v2/blob/master/services/supportauthz/src/main/resources/codegen-resources/paginators-1.json) | ListSupportPermits | nextToken | nextToken |
 | [sustainability](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sustainability/src/main/resources/codegen-resources/paginators-1.json) | GetEstimatedCarbonEmissions | NextToken | NextToken |
 | [sustainability](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sustainability/src/main/resources/codegen-resources/paginators-1.json) | GetEstimatedCarbonEmissionsDimensionValues | NextToken | NextToken |
+| [sustainability](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sustainability/src/main/resources/codegen-resources/paginators-1.json) | GetEstimatedWaterAllocation | NextToken | NextToken |
+| [sustainability](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sustainability/src/main/resources/codegen-resources/paginators-1.json) | GetEstimatedWaterAllocationDimensionValues | NextToken | NextToken |
 | [swf](https://github.com/aws/aws-sdk-java-v2/blob/master/services/swf/src/main/resources/codegen-resources/paginators-1.json) | GetWorkflowExecutionHistory | nextPageToken | nextPageToken |
 | [swf](https://github.com/aws/aws-sdk-java-v2/blob/master/services/swf/src/main/resources/codegen-resources/paginators-1.json) | ListActivityTypes | nextPageToken | nextPageToken |
 | [swf](https://github.com/aws/aws-sdk-java-v2/blob/master/services/swf/src/main/resources/codegen-resources/paginators-1.json) | ListClosedWorkflowExecutions | nextPageToken | nextPageToken |
