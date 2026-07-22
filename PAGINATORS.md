@@ -2857,6 +2857,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [redshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshift/src/main/resources/codegen-resources/paginators-1.json) | DescribeIntegrations | Marker | Marker |
 | [redshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshift/src/main/resources/codegen-resources/paginators-1.json) | DescribeNodeConfigurationOptions | Marker | Marker |
 | [redshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshift/src/main/resources/codegen-resources/paginators-1.json) | DescribeOrderableClusterOptions | Marker | Marker |
+| [redshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshift/src/main/resources/codegen-resources/paginators-1.json) | DescribeQev2IdcApplications | Marker | Marker |
 | [redshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshift/src/main/resources/codegen-resources/paginators-1.json) | DescribeRedshiftIdcApplications | Marker | Marker |
 | [redshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshift/src/main/resources/codegen-resources/paginators-1.json) | DescribeReservedNodeExchangeStatus | Marker | Marker |
 | [redshift](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshift/src/main/resources/codegen-resources/paginators-1.json) | DescribeReservedNodeOfferings | Marker | Marker |
