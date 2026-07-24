@@ -2,4 +2,4 @@
 
 A comprehensive catalogue of all paginators defined in the AWS SDKs, automatically updated daily via GitHub Actions.
 
-**3661 paginators** across **368 services** — see the full list in [PAGINATORS.md](./PAGINATORS.md).
+**3662 paginators** across **368 services** — see the full list in [PAGINATORS.md](./PAGINATORS.md).

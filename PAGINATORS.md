@@ -2876,6 +2876,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [redshiftdata](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshiftdata/src/main/resources/codegen-resources/paginators-1.json) | GetStatementResultV2 | NextToken | NextToken |
 | [redshiftdata](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshiftdata/src/main/resources/codegen-resources/paginators-1.json) | ListDatabases | NextToken | NextToken |
 | [redshiftdata](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshiftdata/src/main/resources/codegen-resources/paginators-1.json) | ListSchemas | NextToken | NextToken |
+| [redshiftdata](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshiftdata/src/main/resources/codegen-resources/paginators-1.json) | ListSessions | NextToken | NextToken |
 | [redshiftdata](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshiftdata/src/main/resources/codegen-resources/paginators-1.json) | ListStatements | NextToken | NextToken |
 | [redshiftdata](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshiftdata/src/main/resources/codegen-resources/paginators-1.json) | ListTables | NextToken | NextToken |
 | [redshiftserverless](https://github.com/aws/aws-sdk-java-v2/blob/master/services/redshiftserverless/src/main/resources/codegen-resources/paginators-1.json) | ListCustomDomainAssociations | nextToken | nextToken |
