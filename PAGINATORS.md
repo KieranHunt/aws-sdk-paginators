@@ -2681,6 +2681,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [pricing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pricing/src/main/resources/codegen-resources/paginators-1.json) | GetAttributeValues | NextToken | NextToken |
 | [pricing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pricing/src/main/resources/codegen-resources/paginators-1.json) | GetProducts | NextToken | NextToken |
 | [pricing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pricing/src/main/resources/codegen-resources/paginators-1.json) | ListPriceLists | NextToken | NextToken |
+| [pricingplanmanager](https://github.com/aws/aws-sdk-java-v2/blob/master/services/pricingplanmanager/src/main/resources/codegen-resources/paginators-1.json) | ListSubscriptions | nextToken | nextToken |
 | [proton](https://github.com/aws/aws-sdk-java-v2/blob/master/services/proton/src/main/resources/codegen-resources/paginators-1.json) | ListComponentOutputs | nextToken | nextToken |
 | [proton](https://github.com/aws/aws-sdk-java-v2/blob/master/services/proton/src/main/resources/codegen-resources/paginators-1.json) | ListComponentProvisionedResources | nextToken | nextToken |
 | [proton](https://github.com/aws/aws-sdk-java-v2/blob/master/services/proton/src/main/resources/codegen-resources/paginators-1.json) | ListComponents | nextToken | nextToken |
