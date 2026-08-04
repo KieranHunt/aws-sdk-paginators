@@ -3520,6 +3520,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [taxsettings](https://github.com/aws/aws-sdk-java-v2/blob/master/services/taxsettings/src/main/resources/codegen-resources/paginators-1.json) | ListTaxRegistrations | nextToken | nextToken |
 | [textract](https://github.com/aws/aws-sdk-java-v2/blob/master/services/textract/src/main/resources/codegen-resources/paginators-1.json) | ListAdapters | NextToken | NextToken |
 | [textract](https://github.com/aws/aws-sdk-java-v2/blob/master/services/textract/src/main/resources/codegen-resources/paginators-1.json) | ListAdapterVersions | NextToken | NextToken |
+| [timestreaminfluxdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/timestreaminfluxdb/src/main/resources/codegen-resources/paginators-1.json) | ListDbBackups | nextToken | nextToken |
 | [timestreaminfluxdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/timestreaminfluxdb/src/main/resources/codegen-resources/paginators-1.json) | ListDbClusters | nextToken | nextToken |
 | [timestreaminfluxdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/timestreaminfluxdb/src/main/resources/codegen-resources/paginators-1.json) | ListDbInstances | nextToken | nextToken |
 | [timestreaminfluxdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/timestreaminfluxdb/src/main/resources/codegen-resources/paginators-1.json) | ListDbInstancesForCluster | nextToken | nextToken |
