@@ -1454,6 +1454,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [elasticsearch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elasticsearch/src/main/resources/codegen-resources/paginators-1.json) | ListPackagesForDomain | NextToken | NextToken |
 | [elementalinference](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elementalinference/src/main/resources/codegen-resources/paginators-1.json) | ListDictionaries | nextToken | nextToken |
 | [elementalinference](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elementalinference/src/main/resources/codegen-resources/paginators-1.json) | ListFeeds | nextToken | nextToken |
+| [elementalinference](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elementalinference/src/main/resources/codegen-resources/paginators-1.json) | SearchFixtures | nextToken | nextToken |
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | DescribeJobFlows |  |  |
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListBootstrapActions | Marker | Marker |
 | [emr](https://github.com/aws/aws-sdk-java-v2/blob/master/services/emr/src/main/resources/codegen-resources/paginators-1.json) | ListClusters | Marker | Marker |
