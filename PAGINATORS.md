@@ -16,6 +16,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyGenerations | nextToken | nextToken |
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | ValidatePolicy | nextToken | nextToken |
 | [account](https://github.com/aws/aws-sdk-java-v2/blob/master/services/account/src/main/resources/codegen-resources/paginators-1.json) | ListRegions | NextToken | NextToken |
+| [accountaccess](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accountaccess/src/main/resources/codegen-resources/paginators-1.json) | ListApplications | nextToken | nextToken |
+| [accountaccess](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accountaccess/src/main/resources/codegen-resources/paginators-1.json) | ListEntitlements | nextToken | nextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeAccounts | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeDomainValidations | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeEndpoints | NextToken | NextToken |
@@ -449,6 +451,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [chimesdkvoice](https://github.com/aws/aws-sdk-java-v2/blob/master/services/chimesdkvoice/src/main/resources/codegen-resources/paginators-1.json) | ListVoiceProfileDomains | NextToken | NextToken |
 | [chimesdkvoice](https://github.com/aws/aws-sdk-java-v2/blob/master/services/chimesdkvoice/src/main/resources/codegen-resources/paginators-1.json) | ListVoiceProfiles | NextToken | NextToken |
 | [chimesdkvoice](https://github.com/aws/aws-sdk-java-v2/blob/master/services/chimesdkvoice/src/main/resources/codegen-resources/paginators-1.json) | SearchAvailablePhoneNumbers | NextToken | NextToken |
+| [cleanrooms](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cleanrooms/src/main/resources/codegen-resources/paginators-1.json) | ListAnalysisLogExports | nextToken | nextToken |
 | [cleanrooms](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cleanrooms/src/main/resources/codegen-resources/paginators-1.json) | ListAnalysisTemplates | nextToken | nextToken |
 | [cleanrooms](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cleanrooms/src/main/resources/codegen-resources/paginators-1.json) | ListCollaborationAnalysisTemplates | nextToken | nextToken |
 | [cleanrooms](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cleanrooms/src/main/resources/codegen-resources/paginators-1.json) | ListCollaborationChangeRequests | nextToken | nextToken |
@@ -807,6 +810,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListIntegrationAssociations | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListLambdaFunctions | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListLexBots | NextToken | NextToken |
+| [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListMetrics | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListPhoneNumbers | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListPhoneNumbersV2 | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListPredefinedAttributes | NextToken | NextToken |
@@ -845,6 +849,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchDataTables | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchHoursOfOperationOverrides | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchHoursOfOperations | NextToken | NextToken |
+| [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchMetrics | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchPredefinedAttributes | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchPrompts | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | SearchQueues | NextToken | NextToken |
