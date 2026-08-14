@@ -22,6 +22,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeDomainValidations | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeEndpoints | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeExternalAccountBindings | NextToken | NextToken |
+| [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListCertificateDomainValidations | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListCertificates | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | SearchCertificates | NextToken | NextToken |
 | [acmpca](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acmpca/src/main/resources/codegen-resources/paginators-1.json) | ListCertificateAuthorities | NextToken | NextToken |
@@ -644,6 +645,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [codecatalyst](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codecatalyst/src/main/resources/codegen-resources/paginators-1.json) | ListWorkflows | nextToken | nextToken |
 | [codecommit](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codecommit/src/main/resources/codegen-resources/paginators-1.json) | DescribeMergeConflicts | nextToken | nextToken |
 | [codecommit](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codecommit/src/main/resources/codegen-resources/paginators-1.json) | DescribePullRequestEvents | nextToken | nextToken |
+| [codecommit](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codecommit/src/main/resources/codegen-resources/paginators-1.json) | GetBlobDifferences | NextToken | NextToken |
 | [codecommit](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codecommit/src/main/resources/codegen-resources/paginators-1.json) | GetCommentReactions | nextToken | nextToken |
 | [codecommit](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codecommit/src/main/resources/codegen-resources/paginators-1.json) | GetCommentsForComparedCommit | nextToken | nextToken |
 | [codecommit](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codecommit/src/main/resources/codegen-resources/paginators-1.json) | GetCommentsForPullRequest | nextToken | nextToken |
