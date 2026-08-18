@@ -803,6 +803,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListEntitySecurityProfiles | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListEvaluationForms | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListEvaluationFormVersions | NextToken | NextToken |
+| [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListExtractionDefinitions | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListFlowAssociations | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListHoursOfOperationOverrides | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListHoursOfOperations | NextToken | NextToken |
@@ -1169,6 +1170,10 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [drs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/drs/src/main/resources/codegen-resources/paginators-1.json) | DescribeSourceServers | nextToken | nextToken |
 | [drs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/drs/src/main/resources/codegen-resources/paginators-1.json) | ListExtensibleSourceServers | nextToken | nextToken |
 | [drs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/drs/src/main/resources/codegen-resources/paginators-1.json) | ListLaunchActions | nextToken | nextToken |
+| [drs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/drs/src/main/resources/codegen-resources/paginators-1.json) | ListRecoveryPlanExecutions | nextToken | nextToken |
+| [drs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/drs/src/main/resources/codegen-resources/paginators-1.json) | ListRecoveryPlanExecutionSteps | nextToken | nextToken |
+| [drs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/drs/src/main/resources/codegen-resources/paginators-1.json) | ListRecoveryPlans | nextToken | nextToken |
+| [drs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/drs/src/main/resources/codegen-resources/paginators-1.json) | ListRecoveryPlanSteps | nextToken | nextToken |
 | [drs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/drs/src/main/resources/codegen-resources/paginators-1.json) | ListStagingAccounts | nextToken | nextToken |
 | [dsql](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dsql/src/main/resources/codegen-resources/paginators-1.json) | ListClusters | nextToken | nextToken |
 | [dsql](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dsql/src/main/resources/codegen-resources/paginators-1.json) | ListStreams | nextToken | nextToken |
