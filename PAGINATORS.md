@@ -1403,6 +1403,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [eks](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eks/src/main/resources/codegen-resources/paginators-1.json) | ListAddons | nextToken | nextToken |
 | [eks](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eks/src/main/resources/codegen-resources/paginators-1.json) | ListAssociatedAccessPolicies | nextToken | nextToken |
 | [eks](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eks/src/main/resources/codegen-resources/paginators-1.json) | ListCapabilities | nextToken | nextToken |
+| [eks](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eks/src/main/resources/codegen-resources/paginators-1.json) | ListCertificateAuthorities | nextToken | nextToken |
 | [eks](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eks/src/main/resources/codegen-resources/paginators-1.json) | ListClusters | nextToken | nextToken |
 | [eks](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eks/src/main/resources/codegen-resources/paginators-1.json) | ListEksAnywhereSubscriptions | nextToken | nextToken |
 | [eks](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eks/src/main/resources/codegen-resources/paginators-1.json) | ListFargateProfiles | nextToken | nextToken |
