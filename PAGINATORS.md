@@ -1758,6 +1758,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [iam](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iam/src/main/resources/codegen-resources/paginators-1.json) | ListVirtualMFADevices | Marker | Marker |
 | [iam](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iam/src/main/resources/codegen-resources/paginators-1.json) | SimulateCustomPolicy | Marker | Marker |
 | [iam](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iam/src/main/resources/codegen-resources/paginators-1.json) | SimulatePrincipalPolicy | Marker | Marker |
+| [iamtoolbox](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iamtoolbox/src/main/resources/codegen-resources/paginators-1.json) | GetRequestAuthorizationDetails | nextToken | nextToken |
 | [identitystore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/identitystore/src/main/resources/codegen-resources/paginators-1.json) | ListGroupMemberships | NextToken | NextToken |
 | [identitystore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/identitystore/src/main/resources/codegen-resources/paginators-1.json) | ListGroupMembershipsForMember | NextToken | NextToken |
 | [identitystore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/identitystore/src/main/resources/codegen-resources/paginators-1.json) | ListGroups | NextToken | NextToken |
