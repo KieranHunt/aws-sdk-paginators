@@ -1697,6 +1697,9 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | DescribeOrganizationConfiguration | NextToken | NextToken |
 | [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | GetUsageStatistics | NextToken | NextToken |
 | [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | ListCoverage | NextToken | NextToken |
+| [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | ListCustomDetectionRuleAssociations | NextToken | NextToken |
+| [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | ListCustomDetectionRuleOrgConfigurations | NextToken | NextToken |
+| [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | ListCustomDetectionRules | NextToken | NextToken |
 | [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | ListDetectors | NextToken | NextToken |
 | [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | ListFilters | NextToken | NextToken |
 | [guardduty](https://github.com/aws/aws-sdk-java-v2/blob/master/services/guardduty/src/main/resources/codegen-resources/paginators-1.json) | ListFindings | NextToken | NextToken |
@@ -3348,6 +3351,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [sesv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sesv2/src/main/resources/codegen-resources/paginators-1.json) | ListDeliverabilityTestReports | NextToken | NextToken |
 | [sesv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sesv2/src/main/resources/codegen-resources/paginators-1.json) | ListDomainDeliverabilityCampaigns | NextToken | NextToken |
 | [sesv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sesv2/src/main/resources/codegen-resources/paginators-1.json) | ListEmailIdentities | NextToken | NextToken |
+| [sesv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sesv2/src/main/resources/codegen-resources/paginators-1.json) | ListEmailIdentityCertificates | NextToken | NextToken |
 | [sesv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sesv2/src/main/resources/codegen-resources/paginators-1.json) | ListEmailTemplates | NextToken | NextToken |
 | [sesv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sesv2/src/main/resources/codegen-resources/paginators-1.json) | ListExportJobs | NextToken | NextToken |
 | [sesv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sesv2/src/main/resources/codegen-resources/paginators-1.json) | ListImportJobs | NextToken | NextToken |
