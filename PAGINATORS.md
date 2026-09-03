@@ -2531,6 +2531,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListDbSystemShapes | nextToken | nextToken |
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListExadbVmClusters | nextToken | nextToken |
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListExascaleDbStorageVaults | nextToken | nextToken |
+| [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListFlexComponents | nextToken | nextToken |
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListGiMinorVersions | nextToken | nextToken |
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListGiVersions | nextToken | nextToken |
 | [odb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/odb/src/main/resources/codegen-resources/paginators-1.json) | ListOdbNetworks | nextToken | nextToken |
