@@ -3010,8 +3010,10 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListServiceTopologyEdges | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListSystemEvents | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListSystems | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestRunDependencies | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestRunEvents | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestRuns | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestRunSourceEvents | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestRunSources | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTests | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestSources | nextToken | nextToken |
