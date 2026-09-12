@@ -1827,6 +1827,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [invoicing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/invoicing/src/main/resources/codegen-resources/paginators-1.json) | ListInvoiceSummaries | NextToken | NextToken |
 | [invoicing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/invoicing/src/main/resources/codegen-resources/paginators-1.json) | ListInvoiceUnits | NextToken | NextToken |
 | [invoicing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/invoicing/src/main/resources/codegen-resources/paginators-1.json) | ListProcurementPortalPreferences | NextToken | NextToken |
+| [invoicing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/invoicing/src/main/resources/codegen-resources/paginators-1.json) | ListProcurementPortals | NextToken | NextToken |
+| [invoicing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/invoicing/src/main/resources/codegen-resources/paginators-1.json) | ListProcurementPortalSuppliers | NextToken | NextToken |
 | [iot](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iot/src/main/resources/codegen-resources/paginators-1.json) | GetBehaviorModelTrainingSummaries | nextToken | nextToken |
 | [iot](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iot/src/main/resources/codegen-resources/paginators-1.json) | ListActiveViolations | nextToken | nextToken |
 | [iot](https://github.com/aws/aws-sdk-java-v2/blob/master/services/iot/src/main/resources/codegen-resources/paginators-1.json) | ListAttachedPolicies | marker | nextMarker |
