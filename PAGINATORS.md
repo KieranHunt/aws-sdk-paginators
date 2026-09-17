@@ -3003,6 +3003,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListFailureModeFindings | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListInputSources | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListPolicies | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListPolicyEvents | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListReports | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListResolvedTestRunTargetResources | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListResources | nextToken | nextToken |
