@@ -828,6 +828,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListRoutingProfiles | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListRules | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListSecurityKeys | NextToken | NextToken |
+| [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListSecurityProfileAIAgents | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListSecurityProfileApplications | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListSecurityProfileFlowModules | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListSecurityProfilePermissions | NextToken | NextToken |
