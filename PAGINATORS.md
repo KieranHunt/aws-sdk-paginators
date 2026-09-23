@@ -608,6 +608,21 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [cloudwatchlogs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchlogs/src/main/resources/codegen-resources/paginators-1.json) | ListLogGroupsForQuery | nextToken | nextToken |
 | [cloudwatchlogs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchlogs/src/main/resources/codegen-resources/paginators-1.json) | ListScheduledQueries | nextToken | nextToken |
 | [cloudwatchlogs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchlogs/src/main/resources/codegen-resources/paginators-1.json) | ListSourcesForS3TableIntegration | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | GetContextGraph | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | GetTelemetryQueryResults | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListAccessGrants | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListAccessProfiles | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListAlerts | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListDomainAccessGrantsForOrganization | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListDomains | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListIntegrations | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListOmniDashboards | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListSpaces | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListSpacesForOrganization | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListTelemetryFields | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListTelemetryQuerySessions | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | ListViews | nextToken | nextToken |
+| [cloudwatchomni](https://github.com/aws/aws-sdk-java-v2/blob/master/services/cloudwatchomni/src/main/resources/codegen-resources/paginators-1.json) | SearchPrincipals | nextToken | nextToken |
 | [codeartifact](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codeartifact/src/main/resources/codegen-resources/paginators-1.json) | ListAllowedRepositoriesForGroup | nextToken | nextToken |
 | [codeartifact](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codeartifact/src/main/resources/codegen-resources/paginators-1.json) | ListAssociatedPackages | nextToken | nextToken |
 | [codeartifact](https://github.com/aws/aws-sdk-java-v2/blob/master/services/codeartifact/src/main/resources/codegen-resources/paginators-1.json) | ListDomains | nextToken | nextToken |
@@ -1204,6 +1219,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeCapacityBlockStatus | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeCapacityManagerDataExports | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeCapacityReservationBillingRequests | NextToken | NextToken |
+| [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeCapacityReservationDateChangeQuotes | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeCapacityReservationFleets | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeCapacityReservations | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | DescribeCarrierGateways | NextToken | NextToken |
@@ -2514,6 +2530,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [oam](https://github.com/aws/aws-sdk-java-v2/blob/master/services/oam/src/main/resources/codegen-resources/paginators-1.json) | ListLinks | NextToken | NextToken |
 | [oam](https://github.com/aws/aws-sdk-java-v2/blob/master/services/oam/src/main/resources/codegen-resources/paginators-1.json) | ListSinks | NextToken | NextToken |
 | [observabilityadmin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/observabilityadmin/src/main/resources/codegen-resources/paginators-1.json) | ListCentralizationRulesForOrganization | NextToken | NextToken |
+| [observabilityadmin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/observabilityadmin/src/main/resources/codegen-resources/paginators-1.json) | ListDatasetIntegrations | NextToken | NextToken |
 | [observabilityadmin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/observabilityadmin/src/main/resources/codegen-resources/paginators-1.json) | ListResourceTelemetry | NextToken | NextToken |
 | [observabilityadmin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/observabilityadmin/src/main/resources/codegen-resources/paginators-1.json) | ListResourceTelemetryForOrganization | NextToken | NextToken |
 | [observabilityadmin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/observabilityadmin/src/main/resources/codegen-resources/paginators-1.json) | ListS3TableIntegrations | NextToken | NextToken |
