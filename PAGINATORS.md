@@ -1518,6 +1518,10 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [entityresolution](https://github.com/aws/aws-sdk-java-v2/blob/master/services/entityresolution/src/main/resources/codegen-resources/paginators-1.json) | ListMatchingWorkflows | nextToken | nextToken |
 | [entityresolution](https://github.com/aws/aws-sdk-java-v2/blob/master/services/entityresolution/src/main/resources/codegen-resources/paginators-1.json) | ListProviderServices | nextToken | nextToken |
 | [entityresolution](https://github.com/aws/aws-sdk-java-v2/blob/master/services/entityresolution/src/main/resources/codegen-resources/paginators-1.json) | ListSchemaMappings | nextToken | nextToken |
+| [eventbridgev2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eventbridgev2/src/main/resources/codegen-resources/paginators-1.json) | ListEventBuses | NextToken | NextToken |
+| [eventbridgev2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eventbridgev2/src/main/resources/codegen-resources/paginators-1.json) | ListEventSources | NextToken | NextToken |
+| [eventbridgev2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eventbridgev2/src/main/resources/codegen-resources/paginators-1.json) | ListResourcePolicies | NextToken | NextToken |
+| [eventbridgev2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/eventbridgev2/src/main/resources/codegen-resources/paginators-1.json) | ListSubscribers | NextToken | NextToken |
 | [evs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/evs/src/main/resources/codegen-resources/paginators-1.json) | ListEnvironmentConnectors | nextToken | nextToken |
 | [evs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/evs/src/main/resources/codegen-resources/paginators-1.json) | ListEnvironmentHosts | nextToken | nextToken |
 | [evs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/evs/src/main/resources/codegen-resources/paginators-1.json) | ListEnvironments | nextToken | nextToken |
