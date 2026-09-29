@@ -384,6 +384,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [billing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billing/src/main/resources/codegen-resources/paginators-1.json) | GetCreditAllocationHistory | nextToken | nextToken |
 | [billing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billing/src/main/resources/codegen-resources/paginators-1.json) | ListBillingViews | nextToken | nextToken |
 | [billing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billing/src/main/resources/codegen-resources/paginators-1.json) | ListBillingViewSegments | nextToken | nextToken |
+| [billing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billing/src/main/resources/codegen-resources/paginators-1.json) | ListBusinessSupportAccountCharges | nextToken | nextToken |
+| [billing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billing/src/main/resources/codegen-resources/paginators-1.json) | ListBusinessSupportSubscriptionHistory | nextToken | nextToken |
 | [billing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billing/src/main/resources/codegen-resources/paginators-1.json) | ListEnterpriseSupportLinkedAccountCharges | nextToken | nextToken |
 | [billing](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billing/src/main/resources/codegen-resources/paginators-1.json) | ListSourceViewsForBillingView | nextToken | nextToken |
 | [billingconductor](https://github.com/aws/aws-sdk-java-v2/blob/master/services/billingconductor/src/main/resources/codegen-resources/paginators-1.json) | ListAccountAssociations | NextToken | NextToken |
@@ -820,6 +822,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListDataTableValues | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListDefaultVocabularies | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListEntitySecurityProfiles | NextToken | NextToken |
+| [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListEvaluationFormAIVersions | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListEvaluationForms | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListEvaluationFormVersions | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListExtractionDefinitions | NextToken | NextToken |
