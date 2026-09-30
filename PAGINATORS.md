@@ -1794,6 +1794,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [identitystore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/identitystore/src/main/resources/codegen-resources/paginators-1.json) | ListGroupMemberships | NextToken | NextToken |
 | [identitystore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/identitystore/src/main/resources/codegen-resources/paginators-1.json) | ListGroupMembershipsForMember | NextToken | NextToken |
 | [identitystore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/identitystore/src/main/resources/codegen-resources/paginators-1.json) | ListGroups | NextToken | NextToken |
+| [identitystore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/identitystore/src/main/resources/codegen-resources/paginators-1.json) | ListIdentityStores | NextToken | NextToken |
 | [identitystore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/identitystore/src/main/resources/codegen-resources/paginators-1.json) | ListUsers | NextToken | NextToken |
 | [imagebuilder](https://github.com/aws/aws-sdk-java-v2/blob/master/services/imagebuilder/src/main/resources/codegen-resources/paginators-1.json) | ListComponentBuildVersions | nextToken | nextToken |
 | [imagebuilder](https://github.com/aws/aws-sdk-java-v2/blob/master/services/imagebuilder/src/main/resources/codegen-resources/paginators-1.json) | ListComponents | nextToken | nextToken |
