@@ -2155,9 +2155,6 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [lambdamicrovms](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lambdamicrovms/src/main/resources/codegen-resources/paginators-1.json) | ListMicrovmImages | nextToken | nextToken |
 | [lambdamicrovms](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lambdamicrovms/src/main/resources/codegen-resources/paginators-1.json) | ListMicrovmImageVersions | nextToken | nextToken |
 | [lambdamicrovms](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lambdamicrovms/src/main/resources/codegen-resources/paginators-1.json) | ListMicrovms | nextToken | nextToken |
-| [lambdaweb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lambdaweb/src/main/resources/codegen-resources/paginators-1.json) | ListWebFunctionEndpoints | nextToken | nextToken |
-| [lambdaweb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lambdaweb/src/main/resources/codegen-resources/paginators-1.json) | ListWebFunctionRevisions | nextToken | nextToken |
-| [lambdaweb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lambdaweb/src/main/resources/codegen-resources/paginators-1.json) | ListWebFunctions | nextToken | nextToken |
 | [launchwizard](https://github.com/aws/aws-sdk-java-v2/blob/master/services/launchwizard/src/main/resources/codegen-resources/paginators-1.json) | ListDeploymentEvents | nextToken | nextToken |
 | [launchwizard](https://github.com/aws/aws-sdk-java-v2/blob/master/services/launchwizard/src/main/resources/codegen-resources/paginators-1.json) | ListDeploymentPatternVersions | nextToken | nextToken |
 | [launchwizard](https://github.com/aws/aws-sdk-java-v2/blob/master/services/launchwizard/src/main/resources/codegen-resources/paginators-1.json) | ListDeployments | nextToken | nextToken |
