@@ -3344,6 +3344,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListConfigurationPolicies | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListConfigurationPolicyAssociations | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListEnabledProductsForImport | NextToken | NextToken |
+| [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListExportJobsV2 | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListExposuresByRemediationV2 | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListFindingAggregators | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListFreeTrialStatusesV2 | NextToken | NextToken |
