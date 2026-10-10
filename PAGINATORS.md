@@ -1073,6 +1073,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListJobs | nextToken | nextToken |
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListLicenseEndpoints | nextToken | nextToken |
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListLimits | nextToken | nextToken |
+| [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListMemberships | nextToken | nextToken |
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListMeteredProducts | nextToken | nextToken |
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListMonitors | nextToken | nextToken |
 | [deadline](https://github.com/aws/aws-sdk-java-v2/blob/master/services/deadline/src/main/resources/codegen-resources/paginators-1.json) | ListQueueEnvironments | nextToken | nextToken |
