@@ -810,6 +810,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListBots | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListChildHoursOfOperations | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListContactEvaluations | NextToken | NextToken |
+| [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListContactFlowAliases | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListContactFlowModuleAliases | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListContactFlowModules | NextToken | NextToken |
 | [connect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/connect/src/main/resources/codegen-resources/paginators-1.json) | ListContactFlowModuleVersions | NextToken | NextToken |
@@ -2130,6 +2131,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [lakeformation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lakeformation/src/main/resources/codegen-resources/paginators-1.json) | ListLFTags | NextToken | NextToken |
 | [lakeformation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lakeformation/src/main/resources/codegen-resources/paginators-1.json) | ListPermissions | NextToken | NextToken |
 | [lakeformation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lakeformation/src/main/resources/codegen-resources/paginators-1.json) | ListResources | NextToken | NextToken |
+| [lakeformation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lakeformation/src/main/resources/codegen-resources/paginators-1.json) | ListRLSPolicies | NextToken | NextToken |
+| [lakeformation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lakeformation/src/main/resources/codegen-resources/paginators-1.json) | ListRLSPolicyAttachments | NextToken | NextToken |
 | [lakeformation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lakeformation/src/main/resources/codegen-resources/paginators-1.json) | ListTableStorageOptimizers | NextToken | NextToken |
 | [lakeformation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lakeformation/src/main/resources/codegen-resources/paginators-1.json) | ListTransactions | NextToken | NextToken |
 | [lakeformation](https://github.com/aws/aws-sdk-java-v2/blob/master/services/lakeformation/src/main/resources/codegen-resources/paginators-1.json) | SearchDatabasesByLFTags | NextToken | NextToken |
