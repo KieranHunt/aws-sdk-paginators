@@ -43,6 +43,16 @@ done
 
 log() { printf '%s\n' "$*"; }
 
+# mise-action sets MISE_TRUSTED_CONFIG_PATHS to the checkout dir only; worktrees
+# elsewhere would be treated as untrusted and their tools invisible, so each side
+# must be appended explicitly.
+add_trusted() {
+  case ":${MISE_TRUSTED_CONFIG_PATHS:-}:" in
+    *":$1:"*) ;;
+    *) export MISE_TRUSTED_CONFIG_PATHS="${MISE_TRUSTED_CONFIG_PATHS:+$MISE_TRUSTED_CONFIG_PATHS:}$1" ;;
+  esac
+}
+
 fail() {
   echo "ERROR: $*" >&2
   exit 1
@@ -70,6 +80,8 @@ BASELINE_DIR=""
 # <base-ref> as a worktree; candidate is this checkout, run in place.
 git worktree add --quiet --detach "$TMP_DIR/baseline" "$BASE_REF" || fail "could not create baseline worktree for $BASE_REF"
 BASELINE_DIR="$TMP_DIR/baseline"
+add_trusted "$REPO_ROOT"
+add_trusted "$BASELINE_DIR"
 
 # shellcheck disable=SC2329
 cleanup() {
@@ -100,7 +112,7 @@ link_sdk() {
 prepare_side() {
   (
     cd "$1"
-    "$MISE_BIN" trust ./mise.toml >/dev/null 2>&1 || true
+    "$MISE_BIN" trust "$1" >/dev/null 2>&1 || true
     "$MISE_BIN" install
     log "[$2] bun $("$MISE_BIN" exec -- bun --version)"
     "$MISE_BIN" exec -- bun install --frozen-lockfile
