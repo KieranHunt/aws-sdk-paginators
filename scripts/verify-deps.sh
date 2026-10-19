@@ -61,6 +61,8 @@ fail() {
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || fail "not inside a git repository"
 cd "$REPO_ROOT"
 
+OUTPUT_FILES=(README.md PAGINATORS.md)
+
 git rev-parse --verify --quiet "$BASE_REF^{commit}" >/dev/null || fail "base ref not found: $BASE_REF"
 
 SDK_DIR="${SDK_DIR:-$HOME/.cache/aws-sdk-java-v2}"
@@ -91,7 +93,7 @@ cleanup() {
       || rm -rf "$BASELINE_DIR"
     git -C "$REPO_ROOT" worktree prune >/dev/null 2>&1 || true
   fi
-  for f in README.md PAGINATORS.md; do
+  for f in "${OUTPUT_FILES[@]}"; do
     if [ -f "$TMP_DIR/candidate-$f.before" ]; then
       cp "$TMP_DIR/candidate-$f.before" "$REPO_ROOT/$f"
     fi
@@ -129,7 +131,7 @@ run_strict() {
 extract_counts() {
   local files paginators services
   files=$(sed -n 's/Found \([0-9]*\) paginators-1\.json files.*/\1/p' "$1" | tail -1)
-  # e.g. "Generated PAGINATORS.md with 3808 paginators from 1423 services"
+  # e.g. "Generated PAGINATORS.md with 3808 paginators from 378 services"
   counts=$(sed -n 's/.*Generated PAGINATORS\.md with \([0-9]*\) paginators from \([0-9]*\) services.*/\1 \2/p' "$1" | tail -1)
   paginators="${counts%% *}"
   services="${counts#* }"
@@ -160,7 +162,7 @@ IFS='|' read -r b_files b_paginators b_services <<< "$(extract_counts "$TMP_DIR/
 
 log ""
 log "=== Candidate: working tree ==="
-for f in README.md PAGINATORS.md; do
+for f in "${OUTPUT_FILES[@]}"; do
   cp "$REPO_ROOT/$f" "$TMP_DIR/candidate-$f.before"
 done
 link_sdk "$REPO_ROOT"
@@ -175,7 +177,7 @@ run_strict "$REPO_ROOT" "$TMP_DIR/candidate.log" || fail "candidate strict run f
 IFS='|' read -r c_files c_paginators c_services <<< "$(extract_counts "$TMP_DIR/candidate.log")"
 
 outputs_match=true
-for f in README.md PAGINATORS.md; do
+for f in "${OUTPUT_FILES[@]}"; do
   # cmp for byte-identical comparison; portable across BSD and GNU.
   if cmp -s "$BASELINE_DIR/$f" "$REPO_ROOT/$f"; then
     log "$f: identical"
