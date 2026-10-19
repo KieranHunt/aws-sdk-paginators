@@ -39,3 +39,80 @@ jobs:
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
         run: |
           scripts/verify-deps.sh HEAD^1
+
+  merge:
+    # Gate on the event payload's PR author, not github.actor. always() so this
+    # job still runs (to comment) when verify fails. Merging itself is #192.
+    needs: verify
+    if: always() && github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    # issues:write covers gh pr edit --add-assignee, which goes through the
+    # issues API and is not reliably granted by pull-requests:write alone.
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    concurrency:
+      group: merge-${{ github.event.pull_request.number }}
+      cancel-in-progress: false
+
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Comment and assign on red or ineligible PRs
+        run: |
+          set -euo pipefail
+
+          REPO="${GITHUB_REPOSITORY}"
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          VERIFY_RESULT="${{ needs.verify.result }}"
+          ASSIGNEE=KieranHunt
+
+          # Hidden markers make re-runs idempotent: one comment per reason per head SHA.
+          verify_red_marker="<!-- merge-job:reason:VERIFY_RED:${HEAD_SHA} -->"
+          ineligible_marker="<!-- merge-job:reason:UNELIGIBLE:${HEAD_SHA} -->"
+
+          # e.g. "package.json" -> eligible; ".github/workflows/verify.yml" -> not
+          is_eligible() {
+            case "$1" in
+              package.json | bun.lock) return 0 ;;
+              *) return 1 ;;
+            esac
+          }
+
+          # e.g. marker found in one of the PR's existing comment bodies -> 0
+          comment_exists() {
+            printf '%s\n' "$EXISTING_COMMENTS" | grep -qF -- "$1"
+          }
+
+          post_reason() {
+            local marker="$1" body="$2"
+            if ! comment_exists "$marker"; then
+              gh pr comment "$PR_NUMBER" --repo "$REPO" --body "${marker}
+          ${body}"
+            fi
+            gh pr edit "$PR_NUMBER" --repo "$REPO" --add-assignee "$ASSIGNEE"
+          }
+
+          EXISTING_COMMENTS="$(gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" --paginate --jq '.[].body')"
+          files="$(gh api "repos/${REPO}/pulls/${PR_NUMBER}/files" --paginate --jq '.[].filename')"
+
+          ineligible_files=""
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            is_eligible "$f" || ineligible_files="${ineligible_files:+${ineligible_files}, }\`${f}\`"
+          done <<< "$files"
+
+          if [ "$VERIFY_RESULT" != "success" ]; then
+            post_reason "$verify_red_marker" "\`verify\` concluded \`${VERIFY_RESULT}\` on head ${HEAD_SHA}. Not eligible for auto-merge — @${ASSIGNEE} please review."
+          fi
+
+          if [ -n "$ineligible_files" ]; then
+            post_reason "$ineligible_marker" "Changed files outside \`package.json\`/\`bun.lock\`: ${ineligible_files}. Not eligible for auto-merge — @${ASSIGNEE} please review."
+          fi
+
+          if [ -z "$ineligible_files" ] && [ "$VERIFY_RESULT" = "success" ]; then
+            echo "Eligible and green; doing nothing (merge is slice #192)."
+          fi
