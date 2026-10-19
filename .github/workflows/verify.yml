@@ -42,7 +42,7 @@ jobs:
 
   merge:
     # Gate on the event payload's PR author, not github.actor. always() so this
-    # job still runs (to comment) when verify fails. Merging itself is #192.
+    # job still runs (to comment) when verify fails.
     needs: verify
     if: always() && github.event.pull_request.user.login == 'dependabot[bot]'
     runs-on: ubuntu-latest
@@ -87,6 +87,25 @@ jobs:
             printf '%s\n' "$EXISTING_COMMENTS" | grep -qF -- "$1"
           }
 
+          # Only reached when verify is green and every changed file is
+          # eligible, so any doubt upstream already means no merge. Native
+          # --auto is not used: without required checks it merges immediately,
+          # and a required check on main would block the daily bot's push.
+          # Note: GITHUB_TOKEN merges do not fire `push` workflows (accepted).
+          merge_if_green() {
+            local err
+            # e.g. gh's head-moved error "head sha <x> does not match the head
+            # sha of pull request #N" -> quiet skip; anything else fails closed.
+            if err="$(gh pr merge "$PR_NUMBER" --repo "$REPO" --squash --delete-branch --match-head-commit "$HEAD_SHA" 2>&1)"; then
+              echo "Squash-merged ${HEAD_SHA} and deleted its branch."
+            elif printf '%s\n' "$err" | grep -qi 'does not match'; then
+              echo "Head moved after verify ran; skipping merge."
+            else
+              printf 'gh pr merge failed: %s\n' "$err" >&2
+              return 1
+            fi
+          }
+
           post_reason() {
             local marker="$1" body="$2"
             if ! comment_exists "$marker"; then
@@ -114,5 +133,5 @@ jobs:
           fi
 
           if [ -z "$ineligible_files" ] && [ "$VERIFY_RESULT" = "success" ]; then
-            echo "Eligible and green; doing nothing (merge is slice #192)."
+            merge_if_green
           fi
