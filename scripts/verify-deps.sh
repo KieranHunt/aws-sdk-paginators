@@ -115,17 +115,28 @@ prepare_side() {
   (
     cd "$1"
     "$MISE_BIN" trust "$1" >/dev/null 2>&1 || true
-    "$MISE_BIN" install
+    "$MISE_BIN" install --locked bun
     log "[$2] bun $("$MISE_BIN" exec -- bun --version)"
     "$MISE_BIN" exec -- bun install --frozen-lockfile
   )
 }
 
+# Output goes to the log file only: the script prints the full paginator
+# catalogue, which is thousands of lines. Failures are shown by the caller.
 run_strict() {
   (
     cd "$1"
-    "$MISE_BIN" exec -- bun run find-aws-sdk-paginators.ts 2>&1 | tee "$2"
+    "$MISE_BIN" exec -- bun run find-aws-sdk-paginators.ts >"$2" 2>&1
   )
+}
+
+log_counts() {
+  local side="$1" counts="$2" files paginators services
+  files="${counts%%|*}"
+  counts="${counts#*|}"
+  paginators="${counts%%|*}"
+  services="${counts#*|}"
+  log "[$side] $files files, $paginators paginators, $services services"
 }
 
 extract_counts() {
@@ -157,8 +168,9 @@ write_summary() {
 log "=== Baseline: $BASE_REF ==="
 link_sdk "$BASELINE_DIR"
 prepare_side "$BASELINE_DIR" "baseline" || fail "baseline setup failed (mise install / bun install)"
-run_strict "$BASELINE_DIR" "$TMP_DIR/baseline.log" || fail "baseline strict run failed (always fatal)"
+run_strict "$BASELINE_DIR" "$TMP_DIR/baseline.log" || { tail -n 40 "$TMP_DIR/baseline.log"; fail "baseline strict run failed (always fatal)"; }
 IFS='|' read -r b_files b_paginators b_services <<< "$(extract_counts "$TMP_DIR/baseline.log")"
+log_counts baseline "$b_files|$b_paginators|$b_services"
 
 log ""
 log "=== Candidate: working tree ==="
@@ -173,8 +185,9 @@ prepare_side "$REPO_ROOT" "candidate" || fail "candidate setup failed (mise inst
   "$MISE_BIN" exec -- bun run typecheck
 ) || fail "candidate typecheck failed (bun check)"
 
-run_strict "$REPO_ROOT" "$TMP_DIR/candidate.log" || fail "candidate strict run failed"
+run_strict "$REPO_ROOT" "$TMP_DIR/candidate.log" || { tail -n 40 "$TMP_DIR/candidate.log"; fail "candidate strict run failed"; }
 IFS='|' read -r c_files c_paginators c_services <<< "$(extract_counts "$TMP_DIR/candidate.log")"
+log_counts candidate "$c_files|$c_paginators|$c_services"
 
 outputs_match=true
 for f in "${OUTPUT_FILES[@]}"; do
