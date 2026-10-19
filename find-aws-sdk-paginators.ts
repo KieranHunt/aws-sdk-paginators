@@ -95,14 +95,39 @@ const paginatorRows: Array<{
   outputToken: string;
 }> = [];
 
+const failures: Array<{ serviceName: string; filePath: string; reason: string }> =
+  [];
+
 for (const paginatorFile of paginatorFiles) {
   const serviceName = extractServiceName(paginatorFile);
   const githubUrl = createGitHubLink(paginatorFile);
 
   try {
     const content = readFileSync(paginatorFile, "utf-8");
-    const json = JSON.parse(content);
-    const validated = paginatorsFileSchema.parse(json);
+
+    let json: unknown;
+    try {
+      json = JSON.parse(content);
+    } catch (err) {
+      failures.push({
+        serviceName,
+        filePath: paginatorFile,
+        reason: `invalid JSON: ${err}`,
+      });
+      continue;
+    }
+
+    let validated: z.infer<typeof paginatorsFileSchema>;
+    try {
+      validated = paginatorsFileSchema.parse(json);
+    } catch (err) {
+      failures.push({
+        serviceName,
+        filePath: paginatorFile,
+        reason: `schema validation failed: ${err}`,
+      });
+      continue;
+    }
 
     console.log(`\n${serviceName}:`);
 
@@ -125,8 +150,20 @@ for (const paginatorFile of paginatorFiles) {
       });
     }
   } catch (err) {
-    console.error(`\nError processing ${serviceName}:`, err);
+    failures.push({
+      serviceName,
+      filePath: paginatorFile,
+      reason: `read failed: ${err}`,
+    });
   }
+}
+
+if (failures.length > 0) {
+  console.error(`\n${failures.length} paginator file(s) failed validation:`);
+  for (const failure of failures) {
+    console.error(`  ${failure.serviceName} (${failure.filePath}): ${failure.reason}`);
+  }
+  process.exit(1);
 }
 
 paginatorRows.sort((a, b) => {

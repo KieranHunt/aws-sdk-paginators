@@ -1,11 +1,12 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "bun"
     directory: "/"
-    schedule:
-      interval: "weekly"
-
+    schedule: { interval: "weekly" }
+    cooldown: { default-days: 7, semver-major-days: 14 }
+    groups:
+      minor-and-patch: { update-types: ["minor", "patch"] }
   - package-ecosystem: "github-actions"
     directory: "/"
-    schedule:
-      interval: "weekly"
+    schedule: { interval: "weekly" }
+    cooldown: { default-days: 7 }

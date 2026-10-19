@@ -1,0 +1,5 @@
+[tool_config]
+locked = true
+
+[tools]
+bun = "1.4.3"
