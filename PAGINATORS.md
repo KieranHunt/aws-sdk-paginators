@@ -316,6 +316,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [bedrockagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagent/src/main/resources/codegen-resources/paginators-1.json) | ListKnowledgeBaseDocuments | nextToken | nextToken |
 | [bedrockagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagent/src/main/resources/codegen-resources/paginators-1.json) | ListKnowledgeBases | nextToken | nextToken |
 | [bedrockagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagent/src/main/resources/codegen-resources/paginators-1.json) | ListPrompts | nextToken | nextToken |
+| [bedrockagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagent/src/main/resources/codegen-resources/paginators-1.json) | ListRetrievalInstructions | nextToken | nextToken |
+| [bedrockagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagent/src/main/resources/codegen-resources/paginators-1.json) | ListRetrievalInstructionVersions | nextToken | nextToken |
 | [bedrockagent](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagent/src/main/resources/codegen-resources/paginators-1.json) | ListVpcConfigurations | nextToken | nextToken |
 | [bedrockagentcore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentcore/src/main/resources/codegen-resources/paginators-1.json) | ListABTests | nextToken | nextToken |
 | [bedrockagentcore](https://github.com/aws/aws-sdk-java-v2/blob/master/services/bedrockagentcore/src/main/resources/codegen-resources/paginators-1.json) | ListActors | nextToken | nextToken |
