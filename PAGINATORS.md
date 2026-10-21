@@ -1414,6 +1414,9 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListAttributes | nextToken | nextToken |
 | [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListClusters | nextToken | nextToken |
 | [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListContainerInstances | nextToken | nextToken |
+| [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListGatewayClusterAssociations | nextToken | nextToken |
+| [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListGatewayRoutes | nextToken | nextToken |
+| [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListGateways | nextToken | nextToken |
 | [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListServices | nextToken | nextToken |
 | [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListServicesByNamespace | nextToken | nextToken |
 | [ecs](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ecs/src/main/resources/codegen-resources/paginators-1.json) | ListTaskDefinitionFamilies | nextToken | nextToken |
@@ -2916,6 +2919,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [rbin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rbin/src/main/resources/codegen-resources/paginators-1.json) | ListRules | NextToken | NextToken |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeBlueGreenDeployments | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeCertificates | Marker | Marker |
+| [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeDBCapacityReservations | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeDBClusterAutomatedBackups | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeDBClusterBacktracks | Marker | Marker |
 | [rds](https://github.com/aws/aws-sdk-java-v2/blob/master/services/rds/src/main/resources/codegen-resources/paginators-1.json) | DescribeDBClusterEndpoints | Marker | Marker |
