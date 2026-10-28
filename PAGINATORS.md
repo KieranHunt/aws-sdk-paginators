@@ -1385,6 +1385,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | GetCapacityManagerMetricDimensions | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | GetCapacityManagerMonitoredTagKeys | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | GetGroupsForCapacityReservation | NextToken | NextToken |
+| [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | GetImageFindings | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | GetInstanceTypesFromInstanceRequirements | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | GetIpamAddressHistory | NextToken | NextToken |
 | [ec2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/ec2/src/main/resources/codegen-resources/paginators-1.json) | GetIpamDiscoveredAccounts | NextToken | NextToken |
@@ -1863,6 +1864,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [inspector2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/inspector2/src/main/resources/codegen-resources/paginators-1.json) | ListFindingAggregations | nextToken | nextToken |
 | [inspector2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/inspector2/src/main/resources/codegen-resources/paginators-1.json) | ListFindings | nextToken | nextToken |
 | [inspector2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/inspector2/src/main/resources/codegen-resources/paginators-1.json) | ListMembers | nextToken | nextToken |
+| [inspector2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/inspector2/src/main/resources/codegen-resources/paginators-1.json) | ListOnDemandScans | nextToken | nextToken |
 | [inspector2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/inspector2/src/main/resources/codegen-resources/paginators-1.json) | ListUsageTotals | nextToken | nextToken |
 | [inspector2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/inspector2/src/main/resources/codegen-resources/paginators-1.json) | SearchVulnerabilities | nextToken | nextToken |
 | [interconnect](https://github.com/aws/aws-sdk-java-v2/blob/master/services/interconnect/src/main/resources/codegen-resources/paginators-1.json) | ListAttachPoints | nextToken | nextToken |
