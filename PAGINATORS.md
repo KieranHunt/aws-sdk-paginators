@@ -1198,6 +1198,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [docdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/docdb/src/main/resources/codegen-resources/paginators-1.json) | DescribeGlobalClusters | Marker | Marker |
 | [docdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/docdb/src/main/resources/codegen-resources/paginators-1.json) | DescribeOrderableDBInstanceOptions | Marker | Marker |
 | [docdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/docdb/src/main/resources/codegen-resources/paginators-1.json) | DescribePendingMaintenanceActions | Marker | Marker |
+| [docdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/docdb/src/main/resources/codegen-resources/paginators-1.json) | DescribeServerlessV2PlatformVersions | Marker | Marker |
 | [docdb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/docdb/src/main/resources/codegen-resources/paginators-1.json) | ListTagsForResource |  |  |
 | [docdbelastic](https://github.com/aws/aws-sdk-java-v2/blob/master/services/docdbelastic/src/main/resources/codegen-resources/paginators-1.json) | ListClusters | nextToken | nextToken |
 | [docdbelastic](https://github.com/aws/aws-sdk-java-v2/blob/master/services/docdbelastic/src/main/resources/codegen-resources/paginators-1.json) | ListClusterSnapshots | nextToken | nextToken |
