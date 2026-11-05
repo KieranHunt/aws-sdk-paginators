@@ -1221,6 +1221,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [dsql](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dsql/src/main/resources/codegen-resources/paginators-1.json) | ListClusters | nextToken | nextToken |
 | [dsql](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dsql/src/main/resources/codegen-resources/paginators-1.json) | ListStreams | nextToken | nextToken |
 | [dynamodb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dynamodb/src/main/resources/codegen-resources/dynamodb/paginators-1.json) | BatchGetItem | RequestItems | UnprocessedKeys |
+| [dynamodb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dynamodb/src/main/resources/codegen-resources/dynamodb/paginators-1.json) | ListBulkOperations | NextToken | NextToken |
 | [dynamodb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dynamodb/src/main/resources/codegen-resources/dynamodb/paginators-1.json) | ListContributorInsights | NextToken | NextToken |
 | [dynamodb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dynamodb/src/main/resources/codegen-resources/dynamodb/paginators-1.json) | ListExports | NextToken | NextToken |
 | [dynamodb](https://github.com/aws/aws-sdk-java-v2/blob/master/services/dynamodb/src/main/resources/codegen-resources/dynamodb/paginators-1.json) | ListImports | NextToken | NextToken |
@@ -3221,6 +3222,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [s3outposts](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3outposts/src/main/resources/codegen-resources/paginators-1.json) | ListSharedEndpoints | NextToken | NextToken |
 | [s3tables](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3tables/src/main/resources/codegen-resources/paginators-1.json) | ListNamespaces | continuationToken | continuationToken |
 | [s3tables](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3tables/src/main/resources/codegen-resources/paginators-1.json) | ListTableBuckets | continuationToken | continuationToken |
+| [s3tables](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3tables/src/main/resources/codegen-resources/paginators-1.json) | ListTableMigrations | nextToken | nextToken |
 | [s3tables](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3tables/src/main/resources/codegen-resources/paginators-1.json) | ListTables | continuationToken | continuationToken |
 | [s3vectors](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3vectors/src/main/resources/codegen-resources/paginators-1.json) | ListIndexes | nextToken | nextToken |
 | [s3vectors](https://github.com/aws/aws-sdk-java-v2/blob/master/services/s3vectors/src/main/resources/codegen-resources/paginators-1.json) | ListVectorBuckets | nextToken | nextToken |
@@ -3372,6 +3374,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | GetRemediationsV2 | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | GetResourcesTrendsV2 | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | GetResourcesV2 | NextToken | NextToken |
+| [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | GetSoftwareResourcesV2 | NextToken | NextToken |
+| [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | GetSoftwareV2 | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListAggregatorsV2 | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListConfigurationPolicies | NextToken | NextToken |
 | [securityhub](https://github.com/aws/aws-sdk-java-v2/blob/master/services/securityhub/src/main/resources/codegen-resources/paginators-1.json) | ListConfigurationPolicyAssociations | NextToken | NextToken |
