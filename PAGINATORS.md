@@ -18,6 +18,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [account](https://github.com/aws/aws-sdk-java-v2/blob/master/services/account/src/main/resources/codegen-resources/paginators-1.json) | ListRegions | NextToken | NextToken |
 | [accountaccess](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accountaccess/src/main/resources/codegen-resources/paginators-1.json) | ListApplications | nextToken | nextToken |
 | [accountaccess](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accountaccess/src/main/resources/codegen-resources/paginators-1.json) | ListEntitlements | nextToken | nextToken |
+| [accountaccessruntime](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accountaccessruntime/src/main/resources/codegen-resources/paginators-1.json) | ListRoles | nextToken | nextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeAccounts | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeDomainValidations | NextToken | NextToken |
 | [acm](https://github.com/aws/aws-sdk-java-v2/blob/master/services/acm/src/main/resources/codegen-resources/paginators-1.json) | ListAcmeEndpoints | NextToken | NextToken |
