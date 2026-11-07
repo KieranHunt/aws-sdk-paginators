@@ -183,6 +183,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [athena](https://github.com/aws/aws-sdk-java-v2/blob/master/services/athena/src/main/resources/codegen-resources/paginators-1.json) | ListPreparedStatements | NextToken | NextToken |
 | [athena](https://github.com/aws/aws-sdk-java-v2/blob/master/services/athena/src/main/resources/codegen-resources/paginators-1.json) | ListQueryExecutions | NextToken | NextToken |
 | [athena](https://github.com/aws/aws-sdk-java-v2/blob/master/services/athena/src/main/resources/codegen-resources/paginators-1.json) | ListSessions | NextToken | NextToken |
+| [athena](https://github.com/aws/aws-sdk-java-v2/blob/master/services/athena/src/main/resources/codegen-resources/paginators-1.json) | ListSystemTableStatuses | NextToken | NextToken |
 | [athena](https://github.com/aws/aws-sdk-java-v2/blob/master/services/athena/src/main/resources/codegen-resources/paginators-1.json) | ListTableMetadata | NextToken | NextToken |
 | [athena](https://github.com/aws/aws-sdk-java-v2/blob/master/services/athena/src/main/resources/codegen-resources/paginators-1.json) | ListTagsForResource | NextToken | NextToken |
 | [athena](https://github.com/aws/aws-sdk-java-v2/blob/master/services/athena/src/main/resources/codegen-resources/paginators-1.json) | ListWorkGroups | NextToken | NextToken |
