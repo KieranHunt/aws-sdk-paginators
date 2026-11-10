@@ -1699,6 +1699,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListConnectionTypes | NextToken | NextToken |
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListCrawlers | NextToken | NextToken |
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListCustomEntityTypes | NextToken | NextToken |
+| [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListDataQualityEvaluationConfigs | NextToken | NextToken |
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListDataQualityResults | NextToken | NextToken |
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListDataQualityResultsV2 | NextToken | NextToken |
 | [glue](https://github.com/aws/aws-sdk-java-v2/blob/master/services/glue/src/main/resources/codegen-resources/paginators-1.json) | ListDataQualityRuleRecommendationRuns | NextToken | NextToken |
@@ -3245,6 +3246,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListAutoMLJobs | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListCandidatesForAutoMLJob | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListClusterEvents | NextToken | NextToken |
+| [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListClusterExtensions | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListClusterNodes | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListClusters | NextToken | NextToken |
 | [sagemaker](https://github.com/aws/aws-sdk-java-v2/blob/master/services/sagemaker/src/main/resources/codegen-resources/paginators-1.json) | ListClusterSchedulerConfigs | NextToken | NextToken |
