@@ -2517,6 +2517,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [networkfirewall](https://github.com/aws/aws-sdk-java-v2/blob/master/services/networkfirewall/src/main/resources/codegen-resources/paginators-1.json) | ListAnalysisReports | NextToken | NextToken |
 | [networkfirewall](https://github.com/aws/aws-sdk-java-v2/blob/master/services/networkfirewall/src/main/resources/codegen-resources/paginators-1.json) | ListContainerAssociations | NextToken | NextToken |
 | [networkfirewall](https://github.com/aws/aws-sdk-java-v2/blob/master/services/networkfirewall/src/main/resources/codegen-resources/paginators-1.json) | ListFirewallPolicies | NextToken | NextToken |
+| [networkfirewall](https://github.com/aws/aws-sdk-java-v2/blob/master/services/networkfirewall/src/main/resources/codegen-resources/paginators-1.json) | ListFirewallPoliciesV2 | NextToken | NextToken |
 | [networkfirewall](https://github.com/aws/aws-sdk-java-v2/blob/master/services/networkfirewall/src/main/resources/codegen-resources/paginators-1.json) | ListFirewalls | NextToken | NextToken |
 | [networkfirewall](https://github.com/aws/aws-sdk-java-v2/blob/master/services/networkfirewall/src/main/resources/codegen-resources/paginators-1.json) | ListFlowOperationResults | NextToken | NextToken |
 | [networkfirewall](https://github.com/aws/aws-sdk-java-v2/blob/master/services/networkfirewall/src/main/resources/codegen-resources/paginators-1.json) | ListFlowOperations | NextToken | NextToken |
