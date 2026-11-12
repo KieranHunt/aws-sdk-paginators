@@ -2127,6 +2127,8 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [kinesisanalyticsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/kinesisanalyticsv2/src/main/resources/codegen-resources/paginators-1.json) | ListApplications | NextToken | NextToken |
 | [kinesisanalyticsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/kinesisanalyticsv2/src/main/resources/codegen-resources/paginators-1.json) | ListApplicationSnapshots | NextToken | NextToken |
 | [kinesisanalyticsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/kinesisanalyticsv2/src/main/resources/codegen-resources/paginators-1.json) | ListApplicationVersions | NextToken | NextToken |
+| [kinesisanalyticsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/kinesisanalyticsv2/src/main/resources/codegen-resources/paginators-1.json) | ListSnapshotOperations | NextToken | NextToken |
+| [kinesisanalyticsv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/kinesisanalyticsv2/src/main/resources/codegen-resources/paginators-1.json) | ListSnapshots | NextToken | NextToken |
 | [kinesisvideo](https://github.com/aws/aws-sdk-java-v2/blob/master/services/kinesisvideo/src/main/resources/codegen-resources/paginators-1.json) | DescribeMappedResourceConfiguration | NextToken | NextToken |
 | [kinesisvideo](https://github.com/aws/aws-sdk-java-v2/blob/master/services/kinesisvideo/src/main/resources/codegen-resources/paginators-1.json) | ListEdgeAgentConfigurations | NextToken | NextToken |
 | [kinesisvideo](https://github.com/aws/aws-sdk-java-v2/blob/master/services/kinesisvideo/src/main/resources/codegen-resources/paginators-1.json) | ListSignalingChannels | NextToken | NextToken |
@@ -3417,11 +3419,15 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListPortfolios | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListPortfoliosForProduct | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListPrincipalsForPortfolio | PageToken | NextPageToken |
+| [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListProvisionedProductPlans | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListProvisioningArtifactsForServiceAction | PageToken | NextPageToken |
+| [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListRecordHistory | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListResourcesForTagOption | PageToken | PageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListServiceActions | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListServiceActionsForProvisioningArtifact | PageToken | NextPageToken |
+| [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListStackInstancesForProvisionedProduct | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ListTagOptions | PageToken | PageToken |
+| [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | ScanProvisionedProducts | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | SearchProducts | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | SearchProductsAsAdmin | PageToken | NextPageToken |
 | [servicecatalog](https://github.com/aws/aws-sdk-java-v2/blob/master/services/servicecatalog/src/main/resources/codegen-resources/paginators-1.json) | SearchProvisionedProducts | PageToken | NextPageToken |
