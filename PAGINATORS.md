@@ -4,6 +4,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 
 | Service | Operation | Input Token | Output Token |
 | ------- | --------- | ----------- | ------------ |
+| [abusesignal](https://github.com/aws/aws-sdk-java-v2/blob/master/services/abusesignal/src/main/resources/codegen-resources/paginators-1.json) | ListAbuseReportStatuses | nextToken | nextToken |
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | GetFindingRecommendation | nextToken | nextToken |
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | GetFindingV2 | nextToken | nextToken |
 | [accessanalyzer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/accessanalyzer/src/main/resources/codegen-resources/paginators-1.json) | ListAccessPreviewFindings | nextToken | nextToken |
@@ -2536,6 +2537,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [neptune](https://github.com/aws/aws-sdk-java-v2/blob/master/services/neptune/src/main/resources/codegen-resources/paginators-1.json) | DescribeGlobalClusters | Marker | Marker |
 | [neptune](https://github.com/aws/aws-sdk-java-v2/blob/master/services/neptune/src/main/resources/codegen-resources/paginators-1.json) | DescribeOrderableDBInstanceOptions | Marker | Marker |
 | [neptune](https://github.com/aws/aws-sdk-java-v2/blob/master/services/neptune/src/main/resources/codegen-resources/paginators-1.json) | DescribePendingMaintenanceActions | Marker | Marker |
+| [neptune](https://github.com/aws/aws-sdk-java-v2/blob/master/services/neptune/src/main/resources/codegen-resources/paginators-1.json) | DescribeServerlessV2PlatformVersions | Marker | Marker |
 | [neptune](https://github.com/aws/aws-sdk-java-v2/blob/master/services/neptune/src/main/resources/codegen-resources/paginators-1.json) | ListTagsForResource |  |  |
 | [neptunegraph](https://github.com/aws/aws-sdk-java-v2/blob/master/services/neptunegraph/src/main/resources/codegen-resources/paginators-1.json) | ListExportTasks | nextToken | nextToken |
 | [neptunegraph](https://github.com/aws/aws-sdk-java-v2/blob/master/services/neptunegraph/src/main/resources/codegen-resources/paginators-1.json) | ListGraphs | nextToken | nextToken |
@@ -3147,6 +3149,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestRunSources | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTests | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestSources | nextToken | nextToken |
+| [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListTestTemplates | nextToken | nextToken |
 | [resiliencehubv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resiliencehubv2/src/main/resources/codegen-resources/paginators-1.json) | ListUserJourneys | nextToken | nextToken |
 | [resourceexplorer2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resourceexplorer2/src/main/resources/codegen-resources/paginators-1.json) | GetResourceExplorerSetup | NextToken | NextToken |
 | [resourceexplorer2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/resourceexplorer2/src/main/resources/codegen-resources/paginators-1.json) | ListIndexes | NextToken | NextToken |
@@ -3529,6 +3532,7 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [signer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/signer/src/main/resources/codegen-resources/paginators-1.json) | ListSigningPlatforms | nextToken | nextToken |
 | [signer](https://github.com/aws/aws-sdk-java-v2/blob/master/services/signer/src/main/resources/codegen-resources/paginators-1.json) | ListSigningProfiles | nextToken | nextToken |
 | [signin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/signin/src/main/resources/codegen-resources/paginators-1.json) | ListResourcePermissionStatements | nextToken | nextToken |
+| [signin](https://github.com/aws/aws-sdk-java-v2/blob/master/services/signin/src/main/resources/codegen-resources/paginators-1.json) | ListSessions | nextToken | nextToken |
 | [simpledbv2](https://github.com/aws/aws-sdk-java-v2/blob/master/services/simpledbv2/src/main/resources/codegen-resources/paginators-1.json) | ListExports | nextToken | nextToken |
 | [snowball](https://github.com/aws/aws-sdk-java-v2/blob/master/services/snowball/src/main/resources/codegen-resources/paginators-1.json) | DescribeAddresses | NextToken | NextToken |
 | [snowball](https://github.com/aws/aws-sdk-java-v2/blob/master/services/snowball/src/main/resources/codegen-resources/paginators-1.json) | ListClusterJobs | NextToken | NextToken |
