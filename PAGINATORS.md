@@ -1545,6 +1545,10 @@ The following table contains all known paginators in the AWS SDKs. This file is 
 | [elasticsearch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elasticsearch/src/main/resources/codegen-resources/paginators-1.json) | ListElasticsearchInstanceTypes | NextToken | NextToken |
 | [elasticsearch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elasticsearch/src/main/resources/codegen-resources/paginators-1.json) | ListElasticsearchVersions | NextToken | NextToken |
 | [elasticsearch](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elasticsearch/src/main/resources/codegen-resources/paginators-1.json) | ListPackagesForDomain | NextToken | NextToken |
+| [elbproxy](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elbproxy/src/main/resources/codegen-resources/paginators-1.json) | ListCertificateAssociations | nextToken | nextToken |
+| [elbproxy](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elbproxy/src/main/resources/codegen-resources/paginators-1.json) | ListProxies | nextToken | nextToken |
+| [elbproxy](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elbproxy/src/main/resources/codegen-resources/paginators-1.json) | ListProxyUpdates | nextToken | nextToken |
+| [elbproxy](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elbproxy/src/main/resources/codegen-resources/paginators-1.json) | ListProxyVersions | nextToken | nextToken |
 | [elementalinference](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elementalinference/src/main/resources/codegen-resources/paginators-1.json) | ListDictionaries | nextToken | nextToken |
 | [elementalinference](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elementalinference/src/main/resources/codegen-resources/paginators-1.json) | ListFeeds | nextToken | nextToken |
 | [elementalinference](https://github.com/aws/aws-sdk-java-v2/blob/master/services/elementalinference/src/main/resources/codegen-resources/paginators-1.json) | ListFunctions | nextToken | nextToken |
